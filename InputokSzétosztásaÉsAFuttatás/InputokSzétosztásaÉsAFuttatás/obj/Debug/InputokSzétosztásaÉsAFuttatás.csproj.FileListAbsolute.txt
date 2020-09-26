@@ -1,0 +1,7 @@
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\bin\Debug\InputokSzétosztásaÉsAFuttatás.exe.config
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\bin\Debug\InputokSzétosztásaÉsAFuttatás.exe
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\bin\Debug\InputokSzétosztásaÉsAFuttatás.pdb
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\obj\Debug\InputokSzétosztásaÉsAFuttatás.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\obj\Debug\InputokSzétosztásaÉsAFuttatás.csproj.CoreCompileInputs.cache
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\obj\Debug\InputokSzétosztásaÉsAFuttatás.exe
+C:\Users\MolnarAttila\source\repos\InputokSzétosztásaÉsAFuttatás\InputokSzétosztásaÉsAFuttatás\obj\Debug\InputokSzétosztásaÉsAFuttatás.pdb
