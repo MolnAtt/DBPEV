@@ -1,0 +1,6 @@
+C:\Users\MolnarAttila\source\repos\Összehasonlító\bin\Debug\Összehasonlító.exe.config
+C:\Users\MolnarAttila\source\repos\Összehasonlító\bin\Debug\Összehasonlító.exe
+C:\Users\MolnarAttila\source\repos\Összehasonlító\bin\Debug\Összehasonlító.pdb
+C:\Users\MolnarAttila\source\repos\Összehasonlító\obj\Debug\Összehasonlító.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\source\repos\Összehasonlító\obj\Debug\Összehasonlító.exe
+C:\Users\MolnarAttila\source\repos\Összehasonlító\obj\Debug\Összehasonlító.pdb

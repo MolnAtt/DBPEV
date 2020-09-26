@@ -1,0 +1,6 @@
+%%%%%%% Az adatbázis neve, a lekérdezések nevei és típusai tabulátorral elválasztva: 
+cukraszda.accdb	2dijazott	rendezett halmaz
+cukraszda.accdb	3db	halmaz
+cukraszda.accdb	4laktozmentes	halmaz
+%cukraszda.accdb	5torta	rendezett halmaz
+cukraszda.accdb	6GTo	halmaz

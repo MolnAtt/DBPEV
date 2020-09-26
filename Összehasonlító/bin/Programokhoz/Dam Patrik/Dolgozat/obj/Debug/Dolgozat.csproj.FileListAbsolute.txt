@@ -1,0 +1,6 @@
+J:\Dam Patrik\Dolgozat\bin\Debug\Dolgozat.exe.config
+J:\Dam Patrik\Dolgozat\bin\Debug\Dolgozat.exe
+J:\Dam Patrik\Dolgozat\bin\Debug\Dolgozat.pdb
+J:\Dam Patrik\Dolgozat\obj\Debug\Dolgozat.csprojResolveAssemblyReference.cache
+J:\Dam Patrik\Dolgozat\obj\Debug\Dolgozat.exe
+J:\Dam Patrik\Dolgozat\obj\Debug\Dolgozat.pdb

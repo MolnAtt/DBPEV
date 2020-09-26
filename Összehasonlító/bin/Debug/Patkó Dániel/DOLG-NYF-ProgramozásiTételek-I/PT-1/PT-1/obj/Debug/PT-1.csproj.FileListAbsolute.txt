@@ -1,0 +1,14 @@
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.exe.config
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.exe
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.pdb
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.csprojAssemblyReference.cache
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.csproj.CoreCompileInputs.cache
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.exe
+D:\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.exe.config
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\bin\Debug\PT-1.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.csproj.CoreCompileInputs.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Patkó Dániel\DOLG-NYF-ProgramozásiTételek-I\PT-1\PT-1\obj\Debug\PT-1.pdb

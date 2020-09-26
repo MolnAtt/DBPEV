@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szabó_Bence_Programozási tételek", "Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek.csproj", "{D3F1F89A-6198-44D6-B9D9-AFF14E4B91F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F1F89A-6198-44D6-B9D9-AFF14E4B91F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F1F89A-6198-44D6-B9D9-AFF14E4B91F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F1F89A-6198-44D6-B9D9-AFF14E4B91F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F1F89A-6198-44D6-B9D9-AFF14E4B91F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D93ADF-6216-493D-963D-41221F7E3E2C}
+	EndGlobalSection
+EndGlobal

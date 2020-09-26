@@ -1,0 +1,18 @@
+%% program neve, feladatok neve és típusai tabulátorral szedve
+% (a százalékjellel kezdődő sorok inline kommentek.)
+PrgThmI	output1.txt	szám-0
+PrgThmI	output2.txt	szám-0
+PrgThmI	output3.txt	szám-2
+PrgThmI	output4a.txt	logikai
+PrgThmI	output4b.txt	multihalmaz
+PrgThmI	output5a.txt	szám-0
+PrgThmI	output5b.txt	szám-0
+PrgThmI	output6.txt	szám-0
+PrgThmI	output7.txt	szám-0
+PrgThmI	output8.txt	szám-0
+PrgThmI	output9.txt	szám-0
+PrgThmI	output10.txt	szám-0
+PrgThmI	output11.txt	szám-0
+PrgThmI	output12.txt	szám-0
+PrgThmI	output13a.txt	logikai
+PrgThmI	output13b.txt	szám-0

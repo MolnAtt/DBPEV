@@ -1,0 +1,6 @@
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\bin\Debug\PT DOGA Gaál Zsolt.exe.config
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\bin\Debug\PT DOGA Gaál Zsolt.exe
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\bin\Debug\PT DOGA Gaál Zsolt.pdb
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\obj\Debug\PT DOGA Gaál Zsolt.csprojResolveAssemblyReference.cache
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\obj\Debug\PT DOGA Gaál Zsolt.exe
+F:\Programozás\PT DOGA\DOLG-NYF-ProgramozásiTételek-I\PT DOGA Gaál Zsolt\obj\Debug\PT DOGA Gaál Zsolt.pdb

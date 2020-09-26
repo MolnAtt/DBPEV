@@ -1,0 +1,22 @@
+		output1	output2	output3	output4	output4	output5	output5	output6	output7	output8	output9	output1	output1	output1	output1	output1
+		sz	sz	sz	lo	mu	sz	sz	sz	sz	sz	sz	sz	sz	sz	lo	sz
+!M	16	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+BaVi	11	1	1	0	1	1	1	1	1	1	1	0	0	0	1	1	0
+BoGe	9	1	1	1	1	1	0	0	1	1	0	1	0	0	0	1	0
+CsCsKá	9	1	1	1	1	1	0	1	1	1	0	1	0	0	0	0	0
+DaPa	12	1	1	1	1	1	1	1	1	1	0	1	0	0	0	1	1
+FaGe	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FoDá	10	1	1	0	1	1	1	1	0	1	0	1	1	0	1	0	0
+GaZs	12	1	1	0	1	1	1	1	1	1	1	1	1	0	0	1	0
+juMá	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+JáNi	12	1	1	1	1	1	1	1	0	1	1	1	1	0	0	1	0
+NéBa	2	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+PaDá	11	1	1	1	0	0	1	1	1	1	0	1	1	0	1	1	0
+PoLe	8	1	1	1	1	0	1	1	0	1	0	0	0	0	0	1	0
+SoCs	7	1	1	0	0	1	0	1	1	0	0	1	1	0	0	0	0
+SzBe	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SzGyPé	8	1	1	1	1	0	1	0	1	1	0	0	1	0	0	0	0
+SzGá	11	1	1	1	1	0	1	1	1	1	0	0	1	0	0	1	1
+ÁgMá	9	1	1	0	1	1	1	1	1	0	1	0	1	0	0	0	0
+ÜkFa	9	1	0	0	1	1	0	0	1	1	1	1	1	0	1	0	0
+

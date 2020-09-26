@@ -1,0 +1,6 @@
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\bin\Debug\Németh_Balázs_Programozási_Tételek.exe.config
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\bin\Debug\Németh_Balázs_Programozási_Tételek.exe
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\bin\Debug\Németh_Balázs_Programozási_Tételek.pdb
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\obj\Debug\Németh_Balázs_Programozási_Tételek.csprojResolveAssemblyReference.cache
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\obj\Debug\Németh_Balázs_Programozási_Tételek.exe
+F:\Infó\Kódok\NYF 2. félév\Németh_Balázs_Programozási_Tételek\obj\Debug\Németh_Balázs_Programozási_Tételek.pdb

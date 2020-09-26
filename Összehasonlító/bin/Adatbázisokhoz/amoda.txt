@@ -1,0 +1,6 @@
+		2dijazo	3db	4laktoz	6GTo
+		reha	ha	ha	ha
+!M	4	1	1	1	1
+GiJa	1	0	1	0	0
+PaÁg	2	0	0	1	1
+

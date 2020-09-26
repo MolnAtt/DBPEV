@@ -1,0 +1,58 @@
+Végezd el a következő feladatokat:
+
+Írj egy programot, amely megválaszolja a lent felsorolt kérdéseket!
+
+Fontos részletek:
+- amikor a képernyőre írsz, mindegy, milyen körítő szöveget írsz. De amikor a fájlba írsz, akkor semmi mást ne írj, csak a választ. Logikai válasz esetén True-t vagy False-ot.
+- Minden arab számmal (1., 2., ...) sorszámozott feladaton belül legfeljebb egyszer olvashatod be a fájlt!!
+- Csinálhatsz viszont olyat, hogy az azonos fájllal dolgozó (római számmal megjelölt) feladatok esetében egyszeri beolvasás során oldod meg a feladatot, noha lehetőséged lenne többször is beolvasni. 
+- A megoldások során nem dolgozhatsz listákkal.
+- Minden megoldást írj ki a képernyőre és írd ki a kérdés után megadott nevű "output"-tal kezdődő fájlba!
+
+--------------------------
+I. Adott az "input-I.txt". 
+
+1. Hány szám található a megadott fájlban? ("output1.txt")
+2. Mennyi a megadott fájlban található számok összege? ("output2.txt")
+3. Mennyi a megadott fájlban található számok átlaga? ("output3.txt")
+
+--------------------------
+II. Adott az "input-II.txt". 
+
+4. 	a) Van-e negatív páros szám a megadott fájlban? ("output4a.txt")
+	b) Válogasd ki / Szűrd ki a negatív páros számokat a fájlból! ("output4b.txt")	
+
+(ne feledd, a 4a és 4b feladatot egy beolvasással kell megoldanod!)
+
+--------------------------
+III. Adott az "input-III.txt". A következő kérdésekre adott válaszokat írd ki a képernyőre és a megadott "output"-tal kezdődő fájlba:
+
+5.	a) Hány 50 és 100 közötti (az 50 és a 100 még benne van) szám található a fájlban? ("output5a.txt")
+	b) Mennyi ezen számok összege? (tehát csak az 50 és 100 közé eső számok összege?) ("output5b.txt")
+
+(ne feledd, az 5a és 5b feladatot egyszerre kell megoldanod!)
+
+--------------------------
+IV. Adott az "input-IV.txt". 
+
+6. 	a) Add meg a megadott fájlban található legkisebb számot! ("output6.txt")
+
+--------------------------
+V. Adott az "input-V.txt", amely biztosan tartalmaz egy 25-tel osztható számot. 
+
+7. Mi az első 25-tel osztható szám? ("output7.txt")
+8. Mi az első 25-tel osztható szám indexe? ("output8.txt")
+9. Mi a legnagyobb 25-tel osztható szám? ("output9.txt")
+
+--------------------------
+VI. Adott az "input-VI.txt", amelyben nem biztos, hogy fellelhető egy 25-tel osztható szám. 
+
+10. Mi az utolsó 25-tel osztható szám? ("output10.txt")
+11. Mi az utolsó 25-tel osztható szám indexe? ("output11.txt")
+12. Mi a legnagyobb 25-tel osztható szám indexe? ("output12.txt")
+
+--------------------------
+VII. Adott az "input-VII.txt". 
+
+13. a) Előfordul-e olyan a sorozatban, hogy egy 3-mal osztható számot egy 10-zel osztható szám követ? ("output13a.txt")
+	b) Ha előfordul ilyen, akkor mi ennek az előfordulásnak az indexe (a 3-mal osztható szám indexére gondolunk)("output13b.txt")

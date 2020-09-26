@@ -1,0 +1,14 @@
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.exe.config
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.exe
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.pdb
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.csprojAssemblyReference.cache
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.csproj.CoreCompileInputs.cache
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.exe
+D:\Ükös Farkas\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.pdb
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.exe.config
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.exe
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\bin\Debug\Ükös Farkas dolgozat.pdb
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.csprojAssemblyReference.cache
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.exe
+C:\Users\diakok\Desktop\Ükös Farkas dolgozat\Ükös Farkas dolgozat\obj\Debug\Ükös Farkas dolgozat.pdb

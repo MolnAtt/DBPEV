@@ -1,0 +1,7 @@
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\bin\Debug\Programozási tételek dolgozat.exe.config
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\bin\Debug\Programozási tételek dolgozat.exe
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\bin\Debug\Programozási tételek dolgozat.pdb
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\obj\Debug\Programozási tételek dolgozat.csprojAssemblyReference.cache
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\obj\Debug\Programozási tételek dolgozat.csproj.CoreCompileInputs.cache
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\obj\Debug\Programozási tételek dolgozat.exe
+F:\Programozás\Programozási tételek dolgozat\Programozási tételek dolgozat\obj\Debug\Programozási tételek dolgozat.pdb

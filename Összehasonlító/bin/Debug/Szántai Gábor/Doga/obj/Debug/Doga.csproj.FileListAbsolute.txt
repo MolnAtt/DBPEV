@@ -1,0 +1,7 @@
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\bin\Debug\Doga.exe.config
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\bin\Debug\Doga.exe
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\bin\Debug\Doga.pdb
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\obj\Debug\Doga.csprojAssemblyReference.cache
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\obj\Debug\Doga.csproj.CoreCompileInputs.cache
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\obj\Debug\Doga.exe
+F:\2019-2020 NyF info\DOLG-NYF-ProgramozásiTételek-I\Doga\Doga\obj\Debug\Doga.pdb

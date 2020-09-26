@@ -1,0 +1,7 @@
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\bin\Debug\Szabó_Bence_Programozási tételek.exe.config
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\bin\Debug\Szabó_Bence_Programozási tételek.exe
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\bin\Debug\Szabó_Bence_Programozási tételek.pdb
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\obj\Debug\Szabó_Bence_Programozási tételek.csprojAssemblyReference.cache
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\obj\Debug\Szabó_Bence_Programozási tételek.csproj.CoreCompileInputs.cache
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\obj\Debug\Szabó_Bence_Programozási tételek.exe
+F:\Iskola\Molnár infó\Dolgozatok\Szabó_Bence_Programozási tételek\Szabó_Bence_Programozási tételek\obj\Debug\Szabó_Bence_Programozási tételek.pdb

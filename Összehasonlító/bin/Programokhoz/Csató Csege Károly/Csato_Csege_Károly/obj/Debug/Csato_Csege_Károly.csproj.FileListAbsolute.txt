@@ -1,0 +1,13 @@
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.exe.config
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.exe
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.pdb
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.csprojResolveAssemblyReference.cache
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.exe
+C:\Users\diakok\Desktop\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.exe.config
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\bin\Debug\Csato_Csege_Károly.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.csproj.CoreCompileInputs.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Csato_Csege_Károly\Csato_Csege_Károly\obj\Debug\Csato_Csege_Károly.pdb

@@ -1,0 +1,3 @@
+Három kívánság	True	torta
+Legényfogó	True	torta
+Zalavári gesztenye	True	torta

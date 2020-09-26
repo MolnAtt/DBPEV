@@ -1,0 +1,6 @@
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\bin\Debug\Dolgozat Faludy Gergő.exe.config
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\bin\Debug\Dolgozat Faludy Gergő.exe
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\bin\Debug\Dolgozat Faludy Gergő.pdb
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\obj\Debug\Dolgozat Faludy Gergő.csprojResolveAssemblyReference.cache
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\obj\Debug\Dolgozat Faludy Gergő.exe
+D:\Infó doga fájlbeolvasás\DOLG-NYF-ProgramozásiTételek-I\Dolgozat Faludy Gergő\Dolgozat Faludy Gergő\obj\Debug\Dolgozat Faludy Gergő.pdb
