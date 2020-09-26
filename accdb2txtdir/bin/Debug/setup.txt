@@ -1,0 +1,8 @@
+%%%%%%% Az adatbázis neve, a lekérdezések nevei és típusai tabulátorral elválasztva: 
+posta.accdb	A	halmaz
+posta.accdb	B	halmaz
+posta.accdb	C	rendezett halmaz
+posta.accdb	D	rendezett halmaz
+posta.accdb	E	halmaz
+posta.accdb	statisztika	halmaz
+posta.accdb	G	halmaz

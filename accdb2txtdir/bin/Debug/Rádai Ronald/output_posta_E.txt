@@ -1,0 +1,13 @@
+Beszerzés	40
+Irányítás	13
+Iskola	22
+Karbantartás	16
+Könyvelés	46
+Marketing	38
+Munkaerőgazdálkodás	43
+Raktár	59
+Szakszervezet	29
+Szállítás	52
+Tervezés	36
+Továbbképzés	51
+Üzem	54

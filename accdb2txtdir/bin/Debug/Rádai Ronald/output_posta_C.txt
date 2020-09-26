@@ -1,0 +1,425 @@
+Simon Klaudia	Beszerzés	Schiller Julio	Szállítás
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Máttyus Péter	Beszerzés	Kovács Szabolcs Tivadar	Üzem
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Simon Klaudia	Beszerzés	Schiller Julio	Szállítás
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Simon Klaudia	Beszerzés	Schiller Julio	Szállítás
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Eszes Tamás	Beszerzés	Illyés  Szabina	Szakszervezet
+Eszes Tamás	Beszerzés	Illyés  Szabina	Szakszervezet
+Eszes Tamás	Beszerzés	Illyés  Szabina	Szakszervezet
+Eszes Tamás	Beszerzés	Illyés  Szabina	Szakszervezet
+Eszes Tamás	Beszerzés	Illyés  Szabina	Szakszervezet
+Simon Klaudia	Beszerzés	Schiller Julio	Szállítás
+Simon Eszter Adél	Beszerzés	Kun Katalin	Szakszervezet
+Vajnai Eszter Adél	Beszerzés	Ruff Tibor	Raktár
+Vajnai Eszter Adél	Beszerzés	Ruff Tibor	Raktár
+Szikra Klaudia	Irányítás	Magát Bettina	Iskola
+Szikra Klaudia	Irányítás	Magát Bettina	Iskola
+Szikra Klaudia	Irányítás	Magát Bettina	Iskola
+Rasztik Zsolt	Iskola	Fekete Tamás	Könyvelés
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Máté Vojtech	Iskola	Szilágyi Michael	Iskola
+Rasztik Zsolt	Iskola	Fekete Tamás	Könyvelés
+Rasztik Zsolt	Iskola	Fekete Tamás	Könyvelés
+Máté Vojtech	Iskola	Szilágyi Michael	Iskola
+Rasztik Zsolt	Iskola	Fekete Tamás	Könyvelés
+Rasztik Zsolt	Iskola	Bartha Lakatos Margit	Tervezés
+Rasztik Zsolt	Iskola	Bartha Lakatos Margit	Tervezés
+Rasztik Zsolt	Iskola	Bartha Lakatos Margit	Tervezés
+Rasztik Zsolt	Iskola	Bartha Lakatos Margit	Tervezés
+Rasztik Zsolt	Iskola	Bartha Lakatos Margit	Tervezés
+Halász  Pál	Iskola	Kovács Szabolcs Tivadar	Üzem
+Rasztik Zsolt	Iskola	Fekete Tamás	Könyvelés
+Gimesi Csaba	Iskola	Bartha Dorottya	Munkaerőgazdálkodás
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Bogányi Ákos	Iskola	Szarvas Katalin	Üzem
+Magát Bettina	Iskola	Mohácsi Anne	Marketing
+Máté Vojtech	Iskola	Szilágyi Michael	Iskola
+Magát Bettina	Iskola	Mohácsi Anne	Marketing
+Magát Bettina	Iskola	Mohácsi Anne	Marketing
+Halász  Pál	Iskola	Kovács Szabolcs Tivadar	Üzem
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Bilicska  Richárd	Iskola	Ruff András	Tervezés
+Máté Vojtech	Iskola	Szilágyi Michael	Iskola
+Vörös  Brigitta	Karbantartás	Farkas Marcell	Munkaerőgazdálkodás
+Buchanan Eszter	Karbantartás	Lukács Réka	Szakszervezet
+Vörös  Brigitta	Karbantartás	Farkas Marcell	Munkaerőgazdálkodás
+Vörös  Brigitta	Karbantartás	Farkas Marcell	Munkaerőgazdálkodás
+Vörös  Brigitta	Karbantartás	Farkas Marcell	Munkaerőgazdálkodás
+Buchanan Eszter	Karbantartás	Lukács Réka	Szakszervezet
+Buchanan Eszter	Karbantartás	Lukács Réka	Szakszervezet
+Buchanan Eszter	Karbantartás	Lukács Réka	Szakszervezet
+Ulmann Nikolett	Karbantartás	Schmidt Dániel	Munkaerőgazdálkodás
+Ulmann Nikolett	Karbantartás	Schmidt Dániel	Munkaerőgazdálkodás
+Ulmann Nikolett	Karbantartás	Schmidt Dániel	Munkaerőgazdálkodás
+Buchanan Eszter	Karbantartás	Lukács Réka	Szakszervezet
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Tőkei Laura	Könyvelés	Suyama Krisztina	Irányítás
+Tőkei Laura	Könyvelés	Suyama Krisztina	Irányítás
+Tőkei Laura	Könyvelés	Suyama Krisztina	Irányítás
+Erdőhelyi Viktória	Könyvelés	Takács  Mária	Szakszervezet
+Sárközi Andrea	Könyvelés	Vásárhelyi  Lujein	Továbbképzés
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Sárközi Andrea	Könyvelés	Vásárhelyi  Lujein	Továbbképzés
+Erdőhelyi Viktória	Könyvelés	Takács  Mária	Szakszervezet
+Erdőhelyi Viktória	Könyvelés	Takács  Mária	Szakszervezet
+Nagy  Péter	Könyvelés	Nagy  Csaba	Szállítás
+Erdőhelyi Viktória	Könyvelés	Takács  Mária	Szakszervezet
+Tőkei Laura	Könyvelés	Suyama Krisztina	Irányítás
+Pátkai  Krisztina Judit	Könyvelés	Tímár Barnabás	Beszerzés
+Pátkai  Krisztina Judit	Könyvelés	Tímár Barnabás	Beszerzés
+Jagicza  András	Könyvelés	Sárosdi  Lakatos Margit	Könyvelés
+Jagicza  András	Könyvelés	Sárosdi  Lakatos Margit	Könyvelés
+Jagicza  András	Könyvelés	Sárosdi  Lakatos Margit	Könyvelés
+Jagicza  András	Könyvelés	Sárosdi  Lakatos Margit	Könyvelés
+Olay Antal	Könyvelés	Illyés  Szabina	Szakszervezet
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Pátkai  Krisztina Judit	Könyvelés	Tímár Barnabás	Beszerzés
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Jagicza  András	Könyvelés	Sárosdi  Lakatos Margit	Könyvelés
+Olay Antal	Könyvelés	Illyés  Szabina	Szakszervezet
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Pátkai  Krisztina Judit	Könyvelés	Bodnár  Károly	Marketing
+Sárközi Andrea	Könyvelés	Vásárhelyi  Lujein	Továbbképzés
+Pátkai  Krisztina Judit	Könyvelés	Tímár Barnabás	Beszerzés
+Dávid Szabina	Könyvelés	Boriszov Gergely	Tervezés
+Nagy  Péter	Könyvelés	Nagy  Csaba	Szállítás
+Pátkai  Krisztina Judit	Könyvelés	Tímár Barnabás	Beszerzés
+Erdőhelyi Viktória	Könyvelés	Takács  Mária	Szakszervezet
+Dávid Szabina	Könyvelés	Boriszov Gergely	Tervezés
+Dávid Szabina	Könyvelés	Boriszov Gergely	Tervezés
+Dávid Szabina	Könyvelés	Boriszov Gergely	Tervezés
+Nagy  Péter	Könyvelés	Nagy  Csaba	Szállítás
+Koschler  Lilla	Marketing	Prokopp  Klára	Marketing
+Ruff Lilla	Marketing	Elek Julio	Szállítás
+Ruff Lilla	Marketing	Elek Julio	Szállítás
+Ruff Lilla	Marketing	Elek Julio	Szállítás
+Koschler  Lilla	Marketing	Prokopp  Klára	Marketing
+Mohácsi Anne	Marketing	Dörfler Ágnes	Szállítás
+Mohácsi Anne	Marketing	Dörfler Ágnes	Szállítás
+Mohácsi Anne	Marketing	Dörfler Ágnes	Szállítás
+Ruff Lilla	Marketing	Elek Julio	Szállítás
+Koschler  Lilla	Marketing	Farkas  Anna	Tervezés
+Koschler  Lilla	Marketing	Farkas  Anna	Tervezés
+Koschler  Lilla	Marketing	Farkas  Anna	Tervezés
+Koschler  Lilla	Marketing	Farkas  Anna	Tervezés
+Koschler  Lilla	Marketing	Farkas  Anna	Tervezés
+Székely Allan	Marketing	Géczy Csaba	Munkaerőgazdálkodás
+Székely Allan	Marketing	Géczy Csaba	Munkaerőgazdálkodás
+Mohácsi Anne	Marketing	Dörfler Ágnes	Szállítás
+Homola Emese	Marketing	Rosta Istvánné	Marketing
+Koschler  Lilla	Marketing	Prokopp  Klára	Marketing
+Székely Allan	Marketing	Gilioli Barbara	Irányítás
+Rosta Istvánné	Marketing	Homola Emese	Marketing
+Székely Allan	Marketing	Géczy Csaba	Munkaerőgazdálkodás
+Dénes  Ildikó	Marketing	Kovács Dezső	Munkaerőgazdálkodás
+Koschler  Lilla	Marketing	Prokopp  Klára	Marketing
+Dénes  Ildikó	Marketing	Kovács Dezső	Munkaerőgazdálkodás
+Koschler  Lilla	Marketing	Prokopp  Klára	Marketing
+Székely Allan	Marketing	Gilioli Barbara	Irányítás
+Homola Emese	Marketing	Rosta Istvánné	Marketing
+Székely Allan	Marketing	Gilioli Barbara	Irányítás
+Homola Emese	Marketing	Rosta Istvánné	Marketing
+Hegedűs Dóra	Munkaerőgazdálkodás	Bogányi Ákos	Iskola
+Hangyási  Nikoletta	Munkaerőgazdálkodás	Erdőhelyi Sándor	Beszerzés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Hegedűs Dóra	Munkaerőgazdálkodás	Bogányi Ákos	Iskola
+Hangyási  Nikoletta	Munkaerőgazdálkodás	Erdőhelyi Sándor	Beszerzés
+Szilágyi Eszter	Munkaerőgazdálkodás	Sárközi Andrea	Könyvelés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Laczkovics  Attila	Munkaerőgazdálkodás	Varga Bálint	Továbbképzés
+Szilágyi Eszter	Munkaerőgazdálkodás	Sárközi Andrea	Könyvelés
+Szilágyi Eszter	Munkaerőgazdálkodás	Sárközi Andrea	Könyvelés
+Hegedűs Dóra	Munkaerőgazdálkodás	Bogányi Ákos	Iskola
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Székely David	Munkaerőgazdálkodás	Ivacs Imre	Raktár
+Székely David	Munkaerőgazdálkodás	Ivacs Imre	Raktár
+Székely David	Munkaerőgazdálkodás	Ivacs Imre	Raktár
+Vörös  Réka	Munkaerőgazdálkodás	Ihász Bettina	Tervezés
+Hangyási  Nikoletta	Munkaerőgazdálkodás	Erdőhelyi Sándor	Beszerzés
+Székely David	Munkaerőgazdálkodás	Ivacs Imre	Raktár
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Székely David	Munkaerőgazdálkodás	Ivacs Imre	Raktár
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Hegedűs Dóra	Munkaerőgazdálkodás	Bogányi Ákos	Iskola
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Szilágyi Eszter	Munkaerőgazdálkodás	Sárközi Andrea	Könyvelés
+Kovács Dezső	Munkaerőgazdálkodás	Varga Kristóf	Munkaerőgazdálkodás
+Kovács Dezső	Munkaerőgazdálkodás	Varga Kristóf	Munkaerőgazdálkodás
+Vörös  Réka	Munkaerőgazdálkodás	Ihász Bettina	Tervezés
+Székely David	Munkaerőgazdálkodás	Monostori Jesús	Szállítás
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Gombor György	Munkaerőgazdálkodás	Bilicska  Richárd	Iskola
+Zavaleta Barbara	Raktár	Csaba Bálint	Könyvelés
+Boriszov György	Raktár	Farkas  Anna	Tervezés
+Zavaleta Barbara	Raktár	Csaba Bálint	Könyvelés
+Zavaleta Barbara	Raktár	Csaba Bálint	Könyvelés
+Zavaleta Barbara	Raktár	Csaba Bálint	Könyvelés
+Boriszov György	Raktár	Farkas  Anna	Tervezés
+Boriszov György	Raktár	Farkas  Anna	Tervezés
+Zavaleta Barbara	Raktár	Csaba Bálint	Könyvelés
+Boriszov György	Raktár	Farkas  Anna	Tervezés
+Gadus  Milklós	Raktár	Jenes Éva	Továbbképzés
+Ivacs Imre	Raktár	Vajnai András	Tervezés
+Ivacs Imre	Raktár	Vajnai András	Tervezés
+Boriszov György	Raktár	Farkas  Anna	Tervezés
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Endrédy Andre	Raktár	Drexler László	Üzem
+Endrédy Andre	Raktár	Drexler László	Üzem
+Endrédy Andre	Raktár	Drexler László	Üzem
+Endrédy Andre	Raktár	Drexler László	Üzem
+Ruff Tibor	Raktár	Ruff András	Tervezés
+Gimesi Dóra	Raktár	Illés  Nikolett	Szakszervezet
+Ruff Tibor	Raktár	Ruff András	Tervezés
+Gadus  Milklós	Raktár	Jenes Éva	Továbbképzés
+Ruff Tibor	Raktár	Ruff András	Tervezés
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Endrédy Andre	Raktár	Drexler László	Üzem
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Ruff Tibor	Raktár	Ruff András	Tervezés
+Gadus  Milklós	Raktár	Hangyási  Zsófia	Munkaerőgazdálkodás
+Gadus  Milklós	Raktár	Hangyási  Zsófia	Munkaerőgazdálkodás
+Gadus  Milklós	Raktár	Hangyási  Zsófia	Munkaerőgazdálkodás
+Petrik Anne	Raktár	Kovács Kornél	Könyvelés
+Petrik Anne	Raktár	Kovács Kornél	Könyvelés
+Petrik Anne	Raktár	Kovács Kornél	Könyvelés
+Petrik Anne	Raktár	Kovács Kornél	Könyvelés
+Jakobi Istvánné	Raktár	Vaszil Barnabás	Szakszervezet
+Jakobi Istvánné	Raktár	Vaszil Barnabás	Szakszervezet
+Jakobi Istvánné	Raktár	Vaszil Barnabás	Szakszervezet
+Jakobi Istvánné	Raktár	Vaszil Barnabás	Szakszervezet
+Jakobi Istvánné	Raktár	Vaszil Barnabás	Szakszervezet
+Bodor Olga	Raktár	Csaba Zsolt	Tervezés
+Gadus  Milklós	Raktár	Jenes Éva	Továbbképzés
+Gadus  Milklós	Raktár	Jenes Éva	Továbbképzés
+Ruff Tibor	Raktár	Ruff András	Tervezés
+Gadus  Milklós	Raktár	Jenes Éva	Továbbképzés
+Szalay Vojtech	Szakszervezet	Nagy  Péter	Könyvelés
+Wootsch Viktória	Szakszervezet	Szalay Vojtech	Szakszervezet
+Wootsch Viktória	Szakszervezet	Szalay Vojtech	Szakszervezet
+Wootsch Viktória	Szakszervezet	Szalay Vojtech	Szakszervezet
+Wootsch Viktória	Szakszervezet	Szalay Vojtech	Szakszervezet
+Csermák  Éva	Szakszervezet	Pátkai  Krisztina Judit	Könyvelés
+Csermák  Éva	Szakszervezet	Pátkai  Krisztina Judit	Könyvelés
+Csermák  Éva	Szakszervezet	Pátkai  Krisztina Judit	Könyvelés
+Szalay Vojtech	Szakszervezet	Nagy  Péter	Könyvelés
+Wootsch Viktória	Szakszervezet	Szalay Vojtech	Szakszervezet
+Szalay Vojtech	Szakszervezet	Nagy  Péter	Könyvelés
+Csermák  Éva	Szakszervezet	Pátkai  Krisztina Judit	Könyvelés
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Krizsán  Beatrix	Szakszervezet	Csontos Krisztián	Irányítás
+Krizsán  Beatrix	Szakszervezet	Csontos Krisztián	Irányítás
+Krizsán  Beatrix	Szakszervezet	Csontos Krisztián	Irányítás
+Krizsán  Beatrix	Szakszervezet	Csontos Krisztián	Irányítás
+Krizsán  Beatrix	Szakszervezet	Csontos Krisztián	Irányítás
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Szalay Vojtech	Szakszervezet	Nagy  Péter	Könyvelés
+Bogár Áron	Szakszervezet	Soróczki-pintér Kinga	Munkaerőgazdálkodás
+Borka  Gergely	Szakszervezet	Gimesi Csaba	Iskola
+Borka  Gergely	Szakszervezet	Gimesi Csaba	Iskola
+Csermák  Éva	Szakszervezet	Pátkai  Krisztina Judit	Könyvelés
+Borka  Gergely	Szakszervezet	Gimesi Csaba	Iskola
+Borka  Gergely	Szakszervezet	Gimesi Csaba	Iskola
+Vaszil Barnabás	Szakszervezet	Nyári Anne	Üzem
+Borka  Gergely	Szakszervezet	Gimesi Csaba	Iskola
+Vaszil Barnabás	Szakszervezet	Nyári Anne	Üzem
+Bogár Áron	Szakszervezet	Soróczki-pintér Kinga	Munkaerőgazdálkodás
+Bogár Áron	Szakszervezet	Soróczki-pintér Kinga	Munkaerőgazdálkodás
+Vaszil Barnabás	Szakszervezet	Nyári Anne	Üzem
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Borka  Gergely	Szakszervezet	Schrancz Zsófia	Tervezés
+Bogár Áron	Szakszervezet	Soróczki-pintér Kinga	Munkaerőgazdálkodás
+Dörfler Ágnes	Szállítás	Nyári Marcell	Szállítás
+Nagy  Csaba	Szállítás	Kun Katalin	Szakszervezet
+Nagy  Csaba	Szállítás	Kun Katalin	Szakszervezet
+Takács  Gyula	Szállítás	Tóth  Jesús	Tervezés
+Nagy  Csaba	Szállítás	Kun Katalin	Szakszervezet
+Dörfler Ágnes	Szállítás	Nyári Marcell	Szállítás
+Bokor Vilmos	Szállítás	Pátkai  Katalin	Beszerzés
+Nagy  Csaba	Szállítás	Kun Katalin	Szakszervezet
+Takács  Gyula	Szállítás	Tóth  Jesús	Tervezés
+Dörfler Ágnes	Szállítás	Nyári Marcell	Szállítás
+Dörfler Ágnes	Szállítás	Nyári Marcell	Szállítás
+Csetnegi Mátyás	Szállítás	Árkossy Dorottya	Üzem
+Nagy  Csaba	Szállítás	Kun Katalin	Szakszervezet
+Bokor Vilmos	Szállítás	Pátkai  Katalin	Beszerzés
+Csetnegi Mátyás	Szállítás	Árkossy Dorottya	Üzem
+Révész Eszter	Szállítás	Nagy  Éva	Munkaerőgazdálkodás
+Lukács Andrea	Szállítás	Vermes  Gergely	Raktár
+Al-Zahrawi Ákos	Szállítás	Vanyur Dávid	Beszerzés
+Al-Zahrawi Ákos	Szállítás	Vanyur Dávid	Beszerzés
+Lukács Andrea	Szállítás	Vermes  Gergely	Raktár
+Takács  Gyula	Szállítás	Vavrek  Jesús	Karbantartás
+Takács  Gyula	Szállítás	Tóth  Jesús	Tervezés
+Dörfler Ágnes	Szállítás	Nyári Marcell	Szállítás
+Révész Eszter	Szállítás	Nagy  Éva	Munkaerőgazdálkodás
+Révész Eszter	Szállítás	Nagy  Éva	Munkaerőgazdálkodás
+Révész Eszter	Szállítás	Nagy  Éva	Munkaerőgazdálkodás
+Csetnegi Mátyás	Szállítás	Árkossy Dorottya	Üzem
+Révész Eszter	Szállítás	Nagy  Éva	Munkaerőgazdálkodás
+Csetnegi Mátyás	Szállítás	Árkossy Dorottya	Üzem
+Takács  Gyula	Szállítás	Tóth  Jesús	Tervezés
+Lukács Andrea	Szállítás	Vermes  Gergely	Raktár
+Vágner András	Szállítás	Jakobi Rebeka	Tervezés
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Zsók  Anne	Szállítás	Tusa Veronika	Tervezés
+Zsók  Anne	Szállítás	Tusa Veronika	Tervezés
+Takács  Gyula	Szállítás	Vavrek  Jesús	Karbantartás
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Takács  Gyula	Szállítás	Vavrek  Jesús	Karbantartás
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Vágner András	Szállítás	Jakobi Rebeka	Tervezés
+Zsók  Anne	Szállítás	Tusa Veronika	Tervezés
+Vágner András	Szállítás	Jakobi Rebeka	Tervezés
+Vágner András	Szállítás	Jakobi Rebeka	Tervezés
+Vágner András	Szállítás	Jakobi Rebeka	Tervezés
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Nagy  Csaba	Szállítás	Csörnyei István	Beszerzés
+Nagy  Csaba	Szállítás	Csörnyei István	Beszerzés
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Nagy  Felícia	Szállítás	Molnár Csilla	Raktár
+Zsók  Anne	Szállítás	Arany Piroska	Munkaerőgazdálkodás
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Nagy  Felícia	Szállítás	Molnár Csilla	Raktár
+Nagy  Felícia	Szállítás	Molnár Csilla	Raktár
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Makai Tamás	Szállítás	Csermák  Éva	Szakszervezet
+Takács  Gyula	Szállítás	Vavrek  Jesús	Karbantartás
+Takács  Gyula	Szállítás	Vavrek  Jesús	Karbantartás
+Miller Dóra	Tervezés	Németh Ágostonné	Továbbképzés
+Miller Dóra	Tervezés	Németh Ágostonné	Továbbképzés
+Miller Dóra	Tervezés	Németh Ágostonné	Továbbképzés
+Bartha Lakatos Margit	Tervezés	Czulek Bálint	Iskola
+Tóth  Jesús	Tervezés	Katona  Andrea	Raktár
+Jakobi Rebeka	Tervezés	Schmidt Dániel	Munkaerőgazdálkodás
+Miller Dóra	Tervezés	Németh Ágostonné	Továbbképzés
+Jakobi Rebeka	Tervezés	Schmidt Dániel	Munkaerőgazdálkodás
+Jakobi Rebeka	Tervezés	Schmidt Dániel	Munkaerőgazdálkodás
+Gimesi Áron	Tervezés	Kovács Jánosné	Karbantartás
+Tóth  Jesús	Tervezés	Katona  Andrea	Raktár
+Tóth  Jesús	Tervezés	Katona  Andrea	Raktár
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Erdei Márta	Tervezés	Vörös  Réka	Munkaerőgazdálkodás
+Gimesi Áron	Tervezés	Kovács Jánosné	Karbantartás
+Gimesi Áron	Tervezés	Kovács Jánosné	Karbantartás
+Gimesi Áron	Tervezés	Kovács Jánosné	Karbantartás
+Bartha Lakatos Margit	Tervezés	Czulek Bálint	Iskola
+Tóth  Jesús	Tervezés	Katona  Andrea	Raktár
+Bartha Lakatos Margit	Tervezés	Czulek Bálint	Iskola
+Bartha Lakatos Margit	Tervezés	Czulek Bálint	Iskola
+Miller Dóra	Tervezés	Vajda Zsuzsa	Szállítás
+Miller Dóra	Tervezés	Vajda Zsuzsa	Szállítás
+Jakobi Rebeka	Tervezés	Schmidt Dániel	Munkaerőgazdálkodás
+Csörnyei Réka	Továbbképzés	Kovács Erzsébet	Szakszervezet
+Varga Bálint	Továbbképzés	Dodsworth Ádám	Továbbképzés
+Csörnyei Réka	Továbbképzés	Kovács Erzsébet	Szakszervezet
+Vásárhelyi  Lujein	Továbbképzés	Jagicza  András	Könyvelés
+Vásárhelyi  Lujein	Továbbképzés	Jagicza  András	Könyvelés
+Csörnyei Réka	Továbbképzés	Kovács Erzsébet	Szakszervezet
+Vásárhelyi  Lujein	Továbbképzés	Jagicza  András	Könyvelés
+Vásárhelyi  Lujein	Továbbképzés	Jagicza  András	Könyvelés
+Varga Bálint	Továbbképzés	Dodsworth Ádám	Továbbképzés
+Vásárhelyi  Lujein	Továbbképzés	Jagicza  András	Könyvelés
+Németh Ágostonné	Továbbképzés	Varga Bálint	Továbbképzés
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Rosta Erzsébet	Továbbképzés	Rasztik Zsolt	Iskola
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Néher Michael	Továbbképzés	Laczkovics  Attila	Munkaerőgazdálkodás
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Csetnegi Gyula	Továbbképzés	Sárvári Jesús	Üzem
+Csetnegi Gyula	Továbbképzés	Sárvári Jesús	Üzem
+Csetnegi Gyula	Továbbképzés	Sárvári Jesús	Üzem
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Németh Ágostonné	Továbbképzés	Varga Bálint	Továbbképzés
+Németh Ágostonné	Továbbképzés	Varga Bálint	Továbbképzés
+Németh Ágostonné	Továbbképzés	Varga Bálint	Továbbképzés
+Kállai István	Továbbképzés	Gaál Emese	Továbbképzés
+Kállai István	Továbbképzés	Gaál Emese	Továbbképzés
+Kállai István	Továbbképzés	Gaál Emese	Továbbképzés
+Kállai István	Továbbképzés	Gaál Emese	Továbbképzés
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Kristóf Mercédesz	Továbbképzés	Kovács Jánosné	Karbantartás
+Horváth  Gergely	Továbbképzés	Nagy  Péter	Könyvelés
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Csetnegi Gyula	Továbbképzés	Réfi Réka	Továbbképzés
+Csetnegi Gyula	Továbbképzés	Réfi Réka	Továbbképzés
+Csetnegi Gyula	Továbbképzés	Réfi Réka	Továbbképzés
+Horváth  Gergely	Továbbképzés	Bajor Ernő Gergő	Tervezés
+Csetnegi Gyula	Továbbképzés	Réfi Réka	Továbbképzés
+Csetnegi Gyula	Továbbképzés	Réfi Réka	Továbbképzés
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Joó Dorina	Továbbképzés	Joó Norbert	Szakszervezet
+Rosta Erzsébet	Továbbképzés	Rasztik Zsolt	Iskola
+Néher Michael	Továbbképzés	Laczkovics  Attila	Munkaerőgazdálkodás
+Rosta Erzsébet	Továbbképzés	Rasztik Zsolt	Iskola
+Néher Michael	Továbbképzés	Laczkovics  Attila	Munkaerőgazdálkodás
+Néher Michael	Továbbképzés	Laczkovics  Attila	Munkaerőgazdálkodás
+Néher Michael	Továbbképzés	Laczkovics  Attila	Munkaerőgazdálkodás
+Rosta Erzsébet	Továbbképzés	Rasztik Zsolt	Iskola
+Csepregi Eleonóra	Továbbképzés	Salánki  András	Üzem
+Rosta Erzsébet	Továbbképzés	Rasztik Zsolt	Iskola
+Miller Zsolt	Üzem	Székely Beatrix	Szállítás
+Nyári Anne	Üzem	Vajnai Eszter Adél	Beszerzés
+Nyári Anne	Üzem	Vajnai Eszter Adél	Beszerzés
+Miller Zsolt	Üzem	Székely Beatrix	Szállítás
+Kis Gabriella	Üzem	Schmidt Dániel	Munkaerőgazdálkodás
+Nyári Anne	Üzem	Vajnai Eszter Adél	Beszerzés
+Miller Zsolt	Üzem	Székely Beatrix	Szállítás
+Miller Zsolt	Üzem	Székely Beatrix	Szállítás
+Salánki  András	Üzem	Vadkerti József	Tervezés
+Salánki  András	Üzem	Vadkerti József	Tervezés
+Kis Gabriella	Üzem	Schmidt Dániel	Munkaerőgazdálkodás
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Kis Gabriella	Üzem	Schmidt Dániel	Munkaerőgazdálkodás
+Kis Gabriella	Üzem	Schmidt Dániel	Munkaerőgazdálkodás
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Király  Gabriella	Üzem	Katona  János	Könyvelés
+Kis Gabriella	Üzem	Schmidt Dániel	Munkaerőgazdálkodás
