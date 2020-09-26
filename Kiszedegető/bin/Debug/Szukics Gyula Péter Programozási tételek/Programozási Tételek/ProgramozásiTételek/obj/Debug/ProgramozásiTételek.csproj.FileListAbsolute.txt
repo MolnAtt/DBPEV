@@ -1,0 +1,20 @@
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe.config
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.pdb
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.csprojResolveAssemblyReference.cache
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.exe
+c:\users\diakok\documents\visual studio 2017\Projects\ProgramozásiTételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.pdb
+F:\Listák\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe.config
+F:\Listák\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe
+F:\Listák\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.pdb
+F:\Listák\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.csprojAssemblyReference.cache
+F:\Listák\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.csproj.CoreCompileInputs.cache
+F:\Listák\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.exe
+F:\Listák\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.pdb
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe.config
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.exe
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\bin\Debug\ProgramozásiTételek.pdb
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.csprojAssemblyReference.cache
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.csproj.CoreCompileInputs.cache
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.exe
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Programozási Tételek\ProgramozásiTételek\obj\Debug\ProgramozásiTételek.pdb

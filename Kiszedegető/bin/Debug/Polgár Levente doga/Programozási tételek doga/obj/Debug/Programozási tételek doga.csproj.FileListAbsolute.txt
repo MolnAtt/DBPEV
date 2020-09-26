@@ -1,0 +1,6 @@
+D:\infó doga\Programozási tételek doga\bin\Debug\Programozási tételek doga.exe.config
+D:\infó doga\Programozási tételek doga\bin\Debug\Programozási tételek doga.exe
+D:\infó doga\Programozási tételek doga\bin\Debug\Programozási tételek doga.pdb
+D:\infó doga\Programozási tételek doga\obj\Debug\Programozási tételek doga.csprojResolveAssemblyReference.cache
+D:\infó doga\Programozási tételek doga\obj\Debug\Programozási tételek doga.exe
+D:\infó doga\Programozási tételek doga\obj\Debug\Programozási tételek doga.pdb

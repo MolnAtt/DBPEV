@@ -1,0 +1,14 @@
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.exe.config
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.exe
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.pdb
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.csprojAssemblyReference.cache
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.csproj.CoreCompileInputs.cache
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.exe
+D:\NYF_2019\Javor_Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.exe.config
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\bin\Debug\Proramozási Tételek DOLGOZAT.pdb
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.csproj.CoreCompileInputs.cache
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.exe
+C:\Users\MolnarAttila\Desktop\testsetup\Dolgozatok\Jávor Nikolett\Proramozási Tételek DOLGOZAT\Proramozási Tételek DOLGOZAT\obj\Debug\Proramozási Tételek DOLGOZAT.pdb

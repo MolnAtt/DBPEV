@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programozási tételek dolgozat", "Programozási tételek dolgozat\Programozási tételek dolgozat.csproj", "{988FFEE2-F1B9-405B-BE7D-22FC95FB7AEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988FFEE2-F1B9-405B-BE7D-22FC95FB7AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988FFEE2-F1B9-405B-BE7D-22FC95FB7AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988FFEE2-F1B9-405B-BE7D-22FC95FB7AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988FFEE2-F1B9-405B-BE7D-22FC95FB7AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134C39E1-D8B9-4EB1-9CCB-30C34627A118}
+	EndGlobalSection
+EndGlobal

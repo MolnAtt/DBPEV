@@ -1,0 +1,6 @@
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\bin\Debug\Soós Csaba Dolgozat.exe.config
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\bin\Debug\Soós Csaba Dolgozat.exe
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\bin\Debug\Soós Csaba Dolgozat.pdb
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\obj\Debug\Soós Csaba Dolgozat.csprojResolveAssemblyReference.cache
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\obj\Debug\Soós Csaba Dolgozat.exe
+J:\NyF, 2019-2020\Soós Csaba\Soós Csaba Dolgozat\Soós Csaba Dolgozat\obj\Debug\Soós Csaba Dolgozat.pdb

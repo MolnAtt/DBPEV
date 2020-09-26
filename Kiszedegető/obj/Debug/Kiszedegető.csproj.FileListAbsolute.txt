@@ -1,0 +1,7 @@
+C:\Users\MolnarAttila\source\repos\Kiszedegető\bin\Debug\Kiszedegető.exe.config
+C:\Users\MolnarAttila\source\repos\Kiszedegető\bin\Debug\Kiszedegető.exe
+C:\Users\MolnarAttila\source\repos\Kiszedegető\bin\Debug\Kiszedegető.pdb
+C:\Users\MolnarAttila\source\repos\Kiszedegető\obj\Debug\Kiszedegető.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\source\repos\Kiszedegető\obj\Debug\Kiszedegető.exe
+C:\Users\MolnarAttila\source\repos\Kiszedegető\obj\Debug\Kiszedegető.pdb
+C:\Users\MolnarAttila\source\repos\Kiszedegető\obj\Debug\Kiszedegető.csproj.CoreCompileInputs.cache

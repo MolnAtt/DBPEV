@@ -1,0 +1,6 @@
+D:\agfaymatedoga\agfaymatedoga\bin\Debug\agfaymatedoga.exe.config
+D:\agfaymatedoga\agfaymatedoga\bin\Debug\agfaymatedoga.exe
+D:\agfaymatedoga\agfaymatedoga\bin\Debug\agfaymatedoga.pdb
+D:\agfaymatedoga\agfaymatedoga\obj\Debug\agfaymatedoga.csprojResolveAssemblyReference.cache
+D:\agfaymatedoga\agfaymatedoga\obj\Debug\agfaymatedoga.exe
+D:\agfaymatedoga\agfaymatedoga\obj\Debug\agfaymatedoga.pdb

@@ -1,0 +1,6 @@
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\bin\Debug\BaloghVince-ProgrTetelek-Doga.exe.config
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\bin\Debug\BaloghVince-ProgrTetelek-Doga.exe
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\bin\Debug\BaloghVince-ProgrTetelek-Doga.pdb
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\obj\Debug\BaloghVince-ProgrTetelek-Doga.csprojResolveAssemblyReference.cache
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\obj\Debug\BaloghVince-ProgrTetelek-Doga.exe
+D:\SZLG\Infó\MA\Dolgozatok\BaloghVince-ProgrTetelek-Doga\BaloghVince-ProgrTetelek-Doga\obj\Debug\BaloghVince-ProgrTetelek-Doga.pdb

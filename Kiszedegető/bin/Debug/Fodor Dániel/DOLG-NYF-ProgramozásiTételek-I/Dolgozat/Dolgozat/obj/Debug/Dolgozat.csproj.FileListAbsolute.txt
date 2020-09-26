@@ -1,0 +1,6 @@
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\obj\Debug\Dolgozat.csprojResolveAssemblyReference.cache
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe.config
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\bin\Debug\Dolgozat.exe
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\bin\Debug\Dolgozat.pdb
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\obj\Debug\Dolgozat.exe
+C:\Users\diakok\Desktop\DOLG-NYF-ProgramozásiTételek-I\Dolgozat\Dolgozat\obj\Debug\Dolgozat.pdb
