@@ -1,0 +1,3 @@
+Mérethiba (Y<): Fábián Gábor tanuló ide2 tesztjének 3olasz válaszában hiányzik 1 db oszlop.
+
+rossz számérték: Fábián Gábor tanuló ide2 tesztjének 4kezdes válaszában rosszul számolt.

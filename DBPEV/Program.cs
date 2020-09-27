@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Az Összehasonlító.exe helyett most ezt fejlesztem, hogy ebből majd valaha lehessen egy kombinált nagy program is.
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +17,11 @@ namespace DBPEV
 	static class Színes
 	{
 		private static Dictionary<string, ConsoleColor> színszotár = new Dictionary<string, ConsoleColor>();
-		private static void Init()
+		public static void Init()
 		{
+			színszotár.Add("red", ConsoleColor.Blue);
 			színszotár.Add("blue", ConsoleColor.Blue);
 			színszotár.Add("white", ConsoleColor.White);
-			színszotár.Add("red", ConsoleColor.Red);
 			színszotár.Add("green", ConsoleColor.Green);
 			színszotár.Add("yellow", ConsoleColor.Yellow);
 		}
@@ -32,7 +37,7 @@ namespace DBPEV
 			}
 			catch (Exception)
 			{
-				Console.ForegroundColor = ConsoleColor.DarkRed;
+				Console.ForegroundColor = ConsoleColor.Magenta;
 			}
 		}
 		public static void WriteLine(string s)
@@ -67,12 +72,22 @@ namespace DBPEV
 				}
 			}
 		}
+
 		public static string Be(string megj = "")
 		{
 			if (megj != "") { Színes.WriteLine(megj); }
 			Színes.Write("[green]{>> }");
 			return Console.ReadLine();
 		}
+		public static string Fehérítő(string str)
+		{
+			foreach (string szín in színszotár.Keys)
+			{
+				str = str.Replace($"[{szín}]", "");
+			}
+			return str.Replace("{", "").Replace("}", "");
+		}
+
 	}
 	public class Multihalmaz<T>
 	{
@@ -221,7 +236,7 @@ namespace DBPEV
 				debug += "Teszt.Eredmények_Kiírása" + dbj;
 
 				Színes.WriteLine("---------------- " + debug + " ----------------------");
-				Színes.WriteLine("A [blue]{" + név + "} teszt eredményeinek összefoglalása:");
+				Színes.WriteLine($"A [blue]{{{név}}} teszt eredményeinek összefoglalása:");
 				int p;
 
 				Console.Write("\t");
@@ -236,7 +251,7 @@ namespace DBPEV
 				result += "\r\n\t";
 				foreach (ALT alt in ALT.szótár.Values)
 				{
-					Színes.Write("\t[blue]{" + Monogram(alt.tipus) + "}");
+					Színes.Write($"\t[blue]{{{Monogram(alt.tipus)}}}");
 					result += "\t" + Monogram(alt.tipus);
 				}
 				Console.WriteLine();
@@ -244,7 +259,7 @@ namespace DBPEV
 				int sum;
 				foreach (Tanuló tanuló in Tanuló.szótár.Values)
 				{
-					Színes.Write("[green]{" + Monogram(tanuló.név) + "}");
+					Színes.Write($"[green]{{{Monogram(tanuló.név)}}}");
 					result += Monogram(tanuló.név);
 
 					// tanuló erre a tesztre kapott összes pontja
@@ -253,7 +268,7 @@ namespace DBPEV
 					{
 						sum += tanuló.tesztenkénti_pontjai[alt][this];
 					}
-					Színes.Write("\t[blue]{" + sum + " <- }");
+					Színes.Write($"\t[blue]{{{sum}}} <-");
 
 					result += "\t" + sum;
 					foreach (ALT alt in ALT.szótár.Values)
@@ -264,16 +279,16 @@ namespace DBPEV
 						switch (p)
 						{
 							case 1:
-								Színes.Write("[green]{" + p.ToString() + "}");
+								Színes.Write($"[green]{{{p}}}");
 								break;
 							case 0:
-								Színes.Write("[yellow]{" + p.ToString() + "}");
+								Színes.Write($"[yellow]{{{p}}}");
 								break;
 							case -1:
-								Színes.Write("[red]{" + p.ToString() + "}");
+								Színes.Write($"[red]{{{p}}}");
 								break;
 							case -2:
-								Színes.Write("[magenta]{" + p.ToString() + "}");
+								Színes.Write($"[magenta]{{{p}}}");
 								break;
 						}
 						result += p.ToString();
@@ -310,7 +325,7 @@ namespace DBPEV
 				result += "\r\n\t";
 				foreach (ALT alt in ALT.szótár.Values)
 				{
-					Színes.Write("\t[blue]{" + Monogram(alt.tipus) + "}");
+					Színes.Write($"\t[blue]{{{Monogram(alt.tipus)}}}");
 					result += "\t" + Monogram(alt.tipus);
 				}
 				Console.WriteLine();
@@ -318,7 +333,7 @@ namespace DBPEV
 				int sum;
 				foreach (Tanuló tanuló in Tanuló.szótár.Values)
 				{
-					Színes.Write("[green]{" + Monogram(tanuló.név) + "}");
+					Színes.Write($"[green]{{{Monogram(tanuló.név)}}}");
 					result += Monogram(tanuló.név);
 
 					// tanuló összes pontja
@@ -327,7 +342,7 @@ namespace DBPEV
 					{
 						sum += tanuló.pontjai[alt];
 					}
-					Színes.Write("\t[blue]{" + sum + " <- }");
+					Színes.Write($"\t[blue]{{{sum}}} <- ");
 
 					result += "\t" + sum;
 					foreach (ALT alt in ALT.szótár.Values)
@@ -337,25 +352,65 @@ namespace DBPEV
 						p = tanuló.pontjai[alt];
 
 						if (tanuló.pontjai[alt] == Tanuló.megoldókulcs.pontjai[alt])
-							Színes.Write("[green]{" + p.ToString() + "}");
+							Színes.Write($"[green]{{{p}}}");
 						else if (tanuló.pontjai[alt] > 0)
-							Színes.Write("[yellow]{" + p.ToString() + "}");
+							Színes.Write($"[yellow]{{{p}}}");
 						else
-							Színes.Write("[red]{" + p.ToString() + "}");
+							Színes.Write($"[red]{{{p}}}");
 						result += p.ToString();
 					}
 					Console.WriteLine();
 					result += "\r\n";
 				}
 
+				string eredménykönyvtárnév = "Results";
+				string hibakönyvtár = $"{Directory.GetCurrentDirectory()}\\{eredménykönyvtárnév}";
+				Directory.CreateDirectory(hibakönyvtár);
+
 				Console.WriteLine("Add meg a fájlnevet (kiterjesztés nélkül), ahova menteni szeretnéd az eredményeket!");
-				string outputfájlnév = Színes.Be() + ".txt";
+				string outputfájlnév = $"{hibakönyvtár}\\table.txt";
 				using (StreamWriter output = new StreamWriter(outputfájlnév))
 				{
 					output.WriteLine(result);
 				}
+				Színes.WriteLine($"A kapott pontok kiírva a [blue]{{{eredménykönyvtárnév}}} könyvtár tabulátorokkal tagolt [blue]{{table.txt}} állományba.");
 				//				Clipboard.SetText(result);
 				//			Console.WriteLine("Táblázat kimásolva a vágólapra.");
+
+				StreamWriter tanulóhibakiíró;
+				string hibafájlnév;
+				
+				// tanulónként külön fájlokba a hibák kiírása
+				foreach (Tanuló tanuló in Tanuló.szótár.Values)
+				{
+					if (tanuló.hibalista.Count != 0)
+					{
+						hibafájlnév = $"{hibakönyvtár}\\Hibalista_{tanuló.név}.txt";
+						using (tanulóhibakiíró = new StreamWriter(hibafájlnév))
+						{
+							foreach (string hiba in tanuló.hibalista)
+							{
+								tanulóhibakiíró.WriteLine(Színes.Fehérítő(hiba));
+							}
+						}
+						Színes.WriteLine($"[green]{{{tanuló.név}}} hibái kiírva a [blue]{{{eredménykönyvtárnév}\\{hibafájlnév}}} fáljba [blue]{{({tanuló.hibalista.Count} db)}}.");
+					}
+				}
+
+				// összes tanuló hibájának egy közös fájlba való kiírása
+				Színes.WriteLine("[red]{+}  [blue]{---------------------------------}");
+				hibafájlnév = $"{hibakönyvtár}\\!Hibalista_összesített.txt";
+				using (tanulóhibakiíró = new StreamWriter(hibafájlnév))
+				{
+					foreach (Tanuló tanuló in Tanuló.szótár.Values)
+					{
+						foreach (string hiba in tanuló.hibalista)
+						{
+							tanulóhibakiíró.WriteLine(Színes.Fehérítő(hiba));
+						}
+					}
+				}
+				Színes.WriteLine($"[green]{{Tanulók}} hibái kiírva a [blue]{{{eredménykönyvtárnév}\\{hibafájlnév}}} fáljba [blue]{{({Tanuló.szótár.Values.Sum(x => x.hibalista.Count)} db)}}.");
 			}
 		}
 		class Tanuló
@@ -408,7 +463,7 @@ namespace DBPEV
 					}
 					catch (Exception)
 					{
-						Színes.WriteLine("[red]{" + path + "} nem található.");
+						Színes.WriteLine($"[red]{{{path}}} nem található.");
 						beolvasástartalma.Add(new string[1] { nemválaszolt });
 					}
 
@@ -469,40 +524,53 @@ namespace DBPEV
 				public static bool operator !=(Válasz v, Válasz w) { return !(v == w); }
 				public static bool operator ==(Válasz v, Válasz m)
 				{
+					string hiba;
 					if (v.tábla[0, 0].StartsWith("HIÁNYZIK"))
 					{
-						Színes.WriteLine("[red]{Hiányzási hiba a [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában: " + v.tábla[0, 0] + "}");
+						hiba = $"[red]{{Hiányzási hiba a [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában: {{{v.tábla[0, 0]}}}";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
 					if (v.tábla[0, 0] == nemválaszolt)
 					{
-						Színes.WriteLine("[red]{Nem válaszolt}: [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} kérdésére nem válaszolt.");
+						hiba = $"[red]{{Nem válaszolt}}: [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} kérdésére nem válaszolt.";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
 
 					if (v.Size[0] < m.Size[0]) // precautions
 					{
-						Színes.Write("[red]{Mérethiba (X<):} [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában hiányzik [blue]{" + (m.Size[0] - v.Size[0]).ToString() + "} db sor.\n");
+						hiba = $"[red]{{Mérethiba (X<):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában hiányzik [blue]{{{(m.Size[0] - v.Size[0]).ToString()}}} db sor.\n";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
 					if (v.Size[0] > m.Size[0]) // precautions
 					{
-						Színes.Write("[red]{Mérethiba (X>):} [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában több  ([blue]{" + (v.Size[0] - m.Size[0]).ToString() + "} db) sor van a kelleténél.\n");
+						hiba = $"[red]{{Mérethiba (X>):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában több  ([blue]{{{(v.Size[0] - m.Size[0]).ToString()}}} db) sor van a kelleténél.\n";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
 					if (v.Size[1] < m.Size[1]) // precautions
 					{
-						Színes.Write("[red]{Mérethiba (Y<):} [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában hiányzik [blue]{" + (m.Size[1] - v.Size[1]).ToString() + "} db oszlop.\n");
+						hiba = $"[red]{{Mérethiba (Y<):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában hiányzik [blue]{{{(m.Size[1] - v.Size[1]).ToString()}}} db oszlop.\n";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
 					if (v.Size[1] > m.Size[1]) // precautions
 					{
-						Színes.Write("[red]{Mérethiba (Y>):} [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában több  ([blue]{" + (v.Size[1] - m.Size[1]).ToString() + "} db) sor van a kelleténél.\n");
+						hiba = $"[red]{{Mérethiba (Y>):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában több  ([blue]{{{(v.Size[1] - m.Size[1]).ToString()}}} db) sor van a kelleténél.\n";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 						return false;
 					}
 
@@ -521,13 +589,17 @@ namespace DBPEV
 						}
 						catch (Exception)
 						{
-							Színes.WriteLine("[red]{Típuseltérési hiba}: [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában nem számmal válaszolt.");
+							hiba = $"[red]{{Típuseltérési hiba}}: [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában nem számmal válaszolt.";
+							Színes.WriteLine(hiba);
+							v.tulajdonos.hibalista.Add(hiba);
 							return false;
 						}
 
 						if (mx != vx)
 						{
-							Színes.WriteLine("[red]{rossz számérték}: [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában rosszul számolt.");
+							hiba = $"[red]{{rossz számérték}}: [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában rosszul számolt.";
+							Színes.WriteLine(hiba);
+							v.tulajdonos.hibalista.Add(hiba);
 							return false;
 						}
 
@@ -537,7 +609,9 @@ namespace DBPEV
 					{
 						if ((m.tábla[0, 0] != v.tábla[0, 0]))
 						{
-							Színes.WriteLine("[red]{rossz logikai érték}: [green]{" + v.tulajdonos.név + "} tanuló [blue]{" + v.teszt.név + "} tesztjének [blue]{" + v.lekérdezés + "} válaszában rosszul döntött.");
+							hiba = $"[red]{{rossz logikai érték}}: [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában rosszul döntött.";
+							Színes.WriteLine(hiba);
+							v.tulajdonos.hibalista.Add(hiba);
 							return false;
 						}
 					}
@@ -550,14 +624,16 @@ namespace DBPEV
 							{
 								if (v.tábla[i, j] != m.tábla[i, j])
 								{
-									Színes.Write("[red]{Rekord- vagy sorrendhiba:} " +
-										"[green]{" + v.tulajdonos.név + "} tanuló a " +
-										"[blue]{" + v.teszt.név + "} teszt " +
-										"[blue]{" + v.lekérdezés + "} feladatában a(z) " +
-										"[blue]{" + i.ToString() + "}.sor " +
-										"[blue]{" + j.ToString() + "}.oszlopában: " +
-										"[green]{" + m.tábla[i, j] + "} helyett " +
-										"[red]{" + v.tábla[i, j] + "} szerepel.\n");
+									hiba = $"[red]{{Rekord- vagy sorrendhiba:}} " +
+										$"[green]{{{v.tulajdonos.név}}} tanuló a " +
+										$"[blue]{{{v.teszt.név}}} teszt " +
+										$"[blue]{{{v.lekérdezés}}} feladatában a(z) " +
+										$"[blue]{{{i.ToString()}}}.sor " +
+										$"[blue]{{{j.ToString()}}}.oszlopában: " +
+										$"[green]{{{m.tábla[i, j]}}} helyett " +
+										$"[red]{{{v.tábla[i, j]}}} szerepel.\n";
+									Színes.WriteLine(hiba);
+									v.tulajdonos.hibalista.Add(hiba);
 									return false;
 								}
 							}
@@ -569,21 +645,25 @@ namespace DBPEV
 						if (v.halmaz == m.halmaz) return true;
 						if (v.halmaz < m.halmaz || v.halmaz > m.halmaz)
 						{
-							(string hiba, int k, int l) = Multihalmaz<string>.Részhalmaz_Első_Hibával(v.halmaz, m.halmaz);
-							Színes.Write("[red]{Rekordhiba (multiplicitás): } " +
-									"[green]{" + v.tulajdonos.név + "} tanuló " +
-									"[blue]{" + v.teszt.név + "} tesztre adott " +
-									"[blue]{" + v.lekérdezés + "} válaszában a " +
-									"[red]{" + hiba + "} csak  " +
-									"[red]{" + k + "} alkalommal szerepel " +
-									"[blue]{" + l + "} helyett.\n");
+							(string hibácska, int k, int l) = Multihalmaz<string>.Részhalmaz_Első_Hibával(v.halmaz, m.halmaz);
+							hiba = $"[red]{{Rekordhiba (multiplicitás):}} " +
+									$"[green]{{{v.tulajdonos.név}}} tanuló " +
+									$"[blue]{{{v.teszt.név}}} tesztre adott " +
+									$"[blue]{{{v.lekérdezés}}} válaszában a " +
+									$"[red]{{{hibácska}}} csak  " +
+									$"[red]{{{k}}} alkalommal szerepel " +
+									$"[blue]{{{l}}} helyett.\n";
+							Színes.WriteLine(hiba);
+							v.tulajdonos.hibalista.Add(hiba);
 							return false;
 						}
-						Színes.Write("[red]{Rekordhiba (részhalmaz):} " +
-							"[green]{" + v.tulajdonos.név + "} tanuló" +
-								"[blue]{" + v.teszt + "} tesztre adott" +
-								"[blue]{" + v.lekérdezés + "} válasza " +
-								"és a megoldókulcs válasza közül egyik sem részhalmaza a másiknak.\n");
+						hiba = $"[red]{{Rekordhiba (részhalmaz):}} " +
+							$"[green]{{{v.tulajdonos.név}}} tanuló " +
+								$"[blue]{{{v.teszt.név}}} tesztre adott" +
+								$"[blue]{{{v.lekérdezés}}} válasza " +
+								"és a megoldókulcs válasza közül egyik sem részhalmaza a másiknak.\n";
+						Színes.WriteLine(hiba);
+						v.tulajdonos.hibalista.Add(hiba);
 
 						return false;
 					}
@@ -598,6 +678,7 @@ namespace DBPEV
 			readonly string dirpath;
 			public readonly string név;
 			public static Dictionary<string, Tanuló> szótár = new Dictionary<string, Tanuló>();
+			public List<string> hibalista = new List<string>();
 			public Tanuló(string dp)
 			{
 				dirpath = dp;
@@ -605,8 +686,9 @@ namespace DBPEV
 				ezamegoldókulcs = név[0] == '!';
 				if (ezamegoldókulcs) { megoldókulcs = this; } // Egyszerűsítés: ezamegoldókulcsot ki lehetne esetleg cserélni mindenhol Megoldókulcs.Equals(this)-re.
 				szótár.Add(név, this);
+
 			}
-			Dictionary<ALT, Dictionary<Teszt, Válasz>> Válaszai()
+			private Dictionary<ALT, Dictionary<Teszt, Válasz>> Válaszai()
 			{
 				Dictionary<ALT, Dictionary<Teszt, Válasz>> válaszlista = new Dictionary<ALT, Dictionary<Teszt, Válasz>>();
 				foreach (ALT alt in ALT.szótár.Values)
@@ -615,10 +697,10 @@ namespace DBPEV
 					foreach (Teszt teszt in Teszt.szótár.Values)
 					{
 						//						teszt_válaszai.Add(teszt, new Válasz(teszt.path + "\\" + this.név + "\\" + alt.adatbázisfájl.Split('.').First() + "_" + alt.lekérdezés + ".txt", this));
-						teszt_válaszai.Add(teszt, new Válasz(teszt.path + "\\" + this.név + "\\" + alt.lekérdezés + ".txt", this, teszt, alt));
+						teszt_válaszai.Add(teszt, new Válasz($"{teszt.path}\\{this.név}\\output_{alt.adatbázis}_{alt.lekérdezés}.txt",this, teszt, alt));
 						if (debugmode)
 						{
-							Színes.WriteLine("[green]{" + this.név + "} [blue]{" + teszt.név + "} tesztre adott [blue]{" + teszt_válaszai[teszt].feladatnév + "} válasza beolvasva.");
+							Színes.WriteLine($"[green]{{{this.név}}} [blue]{{{teszt.név}}} tesztre adott [blue]{{{teszt_válaszai[teszt].feladatnév}}} válasza beolvasva.");
 						}
 					}
 					válaszlista.Add(alt, teszt_válaszai);
@@ -682,7 +764,7 @@ namespace DBPEV
 					if (tanulópath.Split('\\').Last()[0] != '-') // a kötőjellel kezdődőeket nem veszi figyelembe.
 					{
 						t = new Tanuló(tanulópath);
-						Színes.Write(debug + "[green]{" + t.név + "}");
+						Színes.Write(debug + $"[green]{{{t.név}}}");
 						Console.Write(" tanuló inicializálva");
 						if (t.ezamegoldókulcs)
 						{
@@ -806,6 +888,7 @@ namespace DBPEV
 		[STAThreadAttribute]
 		static void Main(string[] args)
 		{
+			Színes.Init();
 			Színes.WriteLine("[red]{Adatbázisokat} szeretnél összevetni vagy [blue]{Programokat} tesztelni?");
 			Színes.WriteLine("[red]{a}: Adatbázisok");
 			Színes.WriteLine("[blue]{más}: Programtesztelés");

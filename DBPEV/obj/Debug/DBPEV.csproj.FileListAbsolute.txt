@@ -1,0 +1,6 @@
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\bin\Debug\DBPEV.exe.config
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\bin\Debug\DBPEV.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\bin\Debug\DBPEV.pdb
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\obj\Debug\DBPEV.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\obj\Debug\DBPEV.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\DBPEV\obj\Debug\DBPEV.pdb

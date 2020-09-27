@@ -1,0 +1,10 @@
+		3olasz.	4kezdes	5tized.	6nyiltn	7pontha
+		reha	sz	sz	mu	reha
+!M	5	1	1	1	1	1
+BoZs	3	0	1	1	1	0
+ChDuAn	3	1	1	1	0	0
+FáGá	2	0	0	1	1	0
+GyAt	2	0	1	1	0	0
+NaTa	2	0	0	1	1	0
+PáMa	5	1	1	1	1	1
+

@@ -1,0 +1,7 @@
+%% program neve, feladatok neve és típusai tabulátorral szedve
+% (a százalékjellel kezdődő sorok inline kommentek.)
+elte.accdb	3olasz.txt	rendezett halmaz
+elte.accdb	4kezdes.txt	szám-0
+elte.accdb	5tized.txt	szám-0
+elte.accdb	6nyiltnap.txt	multihalmaz
+%elte.accdb	7ponthatar.txt	rendezett halmaz

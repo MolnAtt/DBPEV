@@ -1,0 +1,63 @@
+biofizikus	fizika
+geofizikus	fizika
+fizikus	fizika
+biofizikus	biológia
+geofizikus	biológia
+fizikus	biológia
+biofizikus	biológus
+geofizikus	biológus
+fizikus	biológus
+biofizikus	környezettudomány
+geofizikus	környezettudomány
+fizikus	környezettudomány
+biofizikus	geográfus
+geofizikus	geográfus
+fizikus	geográfus
+biofizikus	matematika
+geofizikus	matematika
+fizikus	matematika
+biofizikus	tudománykommunikáció a természettudományban
+geofizikus	tudománykommunikáció a természettudományban
+fizikus	tudománykommunikáció a természettudományban
+biofizikus	környezettan
+geofizikus	környezettan
+fizikus	környezettan
+biofizikus	földrajz
+geofizikus	földrajz
+fizikus	földrajz
+biofizikus	földtudományi
+geofizikus	földtudományi
+fizikus	földtudományi
+biofizikus	meteorológus
+geofizikus	meteorológus
+fizikus	meteorológus
+biofizikus	geológus
+geofizikus	geológus
+fizikus	geológus
+biofizikus	matematikus
+geofizikus	matematikus
+fizikus	matematikus
+biofizikus	geofizikus
+geofizikus	geofizikus
+fizikus	geofizikus
+biofizikus	csillagász
+geofizikus	csillagász
+fizikus	csillagász
+biofizikus	vegyész
+geofizikus	vegyész
+fizikus	vegyész
+biofizikus	alkalmazott matematikus
+geofizikus	alkalmazott matematikus
+fizikus	alkalmazott matematikus
+biofizikus	biofizikus
+geofizikus	biofizikus
+fizikus	biofizikus
+biofizikus	anyagtudomány
+geofizikus	anyagtudomány
+fizikus	anyagtudomány
+biofizikus	kémia
+geofizikus	kémia
+fizikus	kémia
+biofizikus	biztosítási és pénzügyi matematika
+geofizikus	biztosítási és pénzügyi matematika
+fizikus	biztosítási és pénzügyi matematika

@@ -28,6 +28,7 @@ namespace accdb2txtdir
             }
             private static void Színtvált(string szín)
             {
+                Console.ForegroundColor = színszotár[szín];
                 try
                 {
                     Console.ForegroundColor = színszotár[szín];
@@ -191,7 +192,7 @@ namespace accdb2txtdir
                 try
                 {
                     con = new OleDbConnection();
-                    con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dirpath + "\\" + nnt.adatbázis;
+                    con.ConnectionString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dirpath}\\{nnt.adatbázis}";
                     cmd = new OleDbCommand();
                     cmd.Connection = con;
                     cmd.CommandText = "SELECT * FROM " + nnt.lekérdezés;
@@ -205,7 +206,7 @@ namespace accdb2txtdir
                     Konzol.Write("", $"[blue]{{{nnt.lekérdezés}}}");
                     Console.WriteLine(" lekérdezése:");
                     Console.WriteLine("+-----------------------------------");
-                    using (StreamWriter w = new StreamWriter(dirpath + "\\output_" + nnt.adatbázisnév + "_" + nnt.lekérdezés + ".txt"))
+                    using (StreamWriter w = new StreamWriter($"{dirpath}\\output_{nnt.adatbázisnév}_{nnt.lekérdezés}.txt"))
                     {
                         int i = 0;
                         while (reader.Read())

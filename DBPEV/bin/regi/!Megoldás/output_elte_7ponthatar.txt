@@ -1,0 +1,192 @@
+PPK	pedagógia	A	424
+PPK	tanár - orosztanár	M	72
+BTK	romanisztika-román szakirány	A	403
+BTK	történelem	A	422
+BTK	keleti nyelvek és kultúrák-hebraisztika szakirány	A	438
+BTK	bolgár nyelv és irodalom	M	52
+BTK	keleti nyelvek és kultúrák-újgörög szakirány	A	438
+BTK	elméleti nyelvészet	M	70
+BTK	amerikanisztika	M	70
+PPK	pszichológia	A	449
+IK	programtervező informatikus	M	80
+TTK	alkalmazott matematikus	M	64
+BTK	magyar	A	422
+PPK	tanár (T/D) - földrajztanár	M	54
+TTK	geológus	M	46
+BTK	ukrán nyelv és irodalom	M	
+BTK	romanisztika-portugál szakirány	A	412
+TÁTK	nemzetközi tanulmányok	M	97
+BTK	alkalmazott nyelvészet	M	72
+BTK	keleti nyelvek és kultúrák-arab szakirány	A	436
+PPK	sportszervező	A	391
+PPK	tanár - német- és nemzetiséginémet-tanár	M	76
+TÓK	óvodapedagógus-szerb nemzetiségi szakirány	A	
+BTK	szlavisztika-horvát szakirány	A	417
+TÁTK	társadalmi tanulmányok	A	438
+TÁTK	közösségi és civil tanulmányok	M	95
+PPK	tanár (T/D) - angoltanár	M	49
+TÓK	tanító	A	339
+BTK	történelem-régészet szakirány	A	429
+BTK	logika és tudományelmélet	M	95
+TTK	tudománykommunikáció a természettudományban	M	72
+PPK	tanár (T/D) - család- és gyermekvédő tanár	M	
+BTK	turkológia	M	83
+TÁTK	alkalmazott közgazdaságtan	A	464
+TTK	biológia	A	376
+BTK	hebraisztika	M	77
+PPK	tanár - kémiatanár	M	60
+TÓK	csecsemő- és kisgyermeknevelő	A	341
+BTK	szemiotika	M	84
+BTK	régészet	M	83
+BTK	néderlandisztika	M	78
+BTK	informatikus könyvtáros	M	67
+BTK	szlavisztika-lengyel szakirány	A	412
+BTK	romanisztika-olasz szakirány	A	411
+TTK	környezettudomány	M	74
+PPK	tanár - magyar mint idegen nyelv tanára	M	60
+BTK	szlavisztika-cseh szakirány	A	
+PPK	tanár - földrajztanár	M	54
+TÁTK	egészségpolitika, tervezés és finanszírozás	M	92
+PPK	tanár - biológiatanár	M	56
+PPK	tanár (T/D) - nyelv- és beszédfejlesztő tanár	M	43
+TÓK	tanító-német nemzetiségi szakirány	A	339
+BTK	kommunikáció- és médiatudomány	A	449
+TTK	környezettan	A	337
+TTK	vegyész	M	51
+BTK	szlavisztika-orosz szakirány	A	422
+BTK	vallástudomány	M	72
+TTK	fizika	A	337
+BTK	germanisztika-néderlandisztika szakirány	A	417
+TTK	matematika	A	340
+TTK	meteorológus	M	76
+BTK	ruszisztika	M	79
+BTK	arabisztika	M	80
+TTK	vegyész	M	55
+TTK	csillagász	M	72
+BTK	magyar nyelv és irodalom	M	70
+TÓK	óvodapedagógus-német nemzetiségi szakirány	A	337
+BTK	orosz nyelv és irodalom	M	70
+BTK	lengyel nyelv és irodalom	M	84
+PPK	tanár - angoltanár	M	49
+BTK	német nemzetiségi nyelv és irodalom	M	90
+TTK	biológus	M	61
+BTK	történeti muzeológia	M	65
+BTK	néprajz	A	406
+PPK	tanár - informatikatanár	M	70
+TÁTK	közgazdasági elemző	M	92
+BTK	ókori nyelvek és kultúrák-klasszika-filológia szakirány	A	436
+BGGYK	gyógypedagógia	M	24
+BTK	olasz nyelv, irodalom és kultúra	M	73
+BTK	horvát nyelv és irodalom	M	81
+TTK	kémia	A	370
+BTK	kommunikáció- és médiatudomány	M	37
+BTK	filozófia	M	84
+TTK	biofizikus	M	63
+BTK	keleti nyelvek és kultúrák-indológia szakirány	A	438
+BTK	romanisztika-francia szakirány	A	419
+BTK	hungarológia	M	79
+BTK	keleti nyelvek és kultúrák-kínai szakirány	A	438
+BTK	szabad bölcsészet	A	422
+TTK	anyagtudomány	M	57
+BTK	japanológia	M	82
+PPK	tanár (T/D) - olasztanár	M	54
+PPK	tanár (T/D) - ének-zene tanár	M	68
+BTK	szerb nyelv és irodalom	M	86
+TÁTK	humánökológia	M	92
+PPK	tanár - olasztanár	M	54
+BTK	germanisztika-skandinavisztika szakirány	A	433
+BTK	ének-zene	A	398
+PPK	tanár - matematikatanár	M	46
+PPK	tanár - spanyoltanár	M	83
+BTK	romanisztika-spanyol szakirány	A	419
+BTK	szlovák nyelv és irodalom	M	80
+TÁTK	szociológia	M	92
+PPK	neveléstudományi	M	46
+BTK	portugál nyelv, irodalom és kultúra	M	84
+PPK	tanár - szlovák- és nemzetiségiszlovák-tanár	M	76
+PPK	tanár (T/D) - franciatanár	M	50
+PPK	tanár - történelemtanár	M	46
+BTK	cseh nyelv és irodalom	M	88
+PPK	tanár - ógörögtanár	M	
+PPK	tanár - franciatanár	M	50
+BTK	szlavisztika-szlovén szakirány	A	
+BTK	mongolisztika	M	
+PPK	tanár - némettanár	M	58
+TTK	földtudományi	A	360
+BTK	indológia	M	79
+PPK	tanár - latintanár	M	72
+BTK	anglisztika	A	422
+TTK	biztosítási és pénzügyi matematika	M	47
+BTK	germanisztika-német szakirány	A	419
+TÁTK	szociális munka	M	95
+BTK	klasszika-filológia	M	85
+PPK	tanár (T/D) - magyartanár	M	44
+TTK	matematikus	M	80
+BTK	keleti nyelvek és kultúrák-japán szakirány	A	438
+BTK	ókori nyelvek és kultúrák	A	438
+TÁTK	nemzetközi tanulmányok	A	463
+PPK	tanár (T/D) - informatikatanár	M	70
+BTK	francia nyelv, irodalom és kultúra	M	77
+IK	térképész	M	74
+BTK	levéltár	M	80
+BTK	filmtudomány	M	65
+BTK	egyiptológia	M	82
+TÓK	óvodapedagógus	A	345
+TÁTK	survey statisztika	M	92
+BTK	keleti nyelvek és kultúrák-tibeti szakirány	A	438
+ÁJK	politológia	A	435
+TÁTK	szociológia	A	439
+PPK	tanár - fizikatanár	M	69
+BTK	skandinavisztika	M	87
+BGGYK	gyógypedagógia	A	399
+BTK	szlavisztika-ukrán szakirány	A	
+BTK	néprajz	M	85
+ÁJK	jogász	O	467
+BTK	keleti nyelvek és kultúrák-török szakirány	A	438
+PPK	tanár (T/D) - pedagógiatanár	M	61
+BTK	keleti nyelvek és kultúrák-mongol szakirány	A	435
+TTK	fizikus	M	59
+BTK	szlavisztika-szlovák szakirány	A	401
+PPK	tanár - horvát- és nemzetiségihorvát-tanár	M	75
+PPK	rekreációszervezés és egészségfejlesztés	A	394
+PPK	andragógia	A	429
+BTK	német nyelv, irodalom és kultúra	M	80
+TÁTK	kulturális antropológia	M	92
+BTK	szlavisztika-bolgár szakirány	A	
+BTK	finnugrisztika	M	48
+PPK	tanár - pedagógiatanár	M	61
+PPK	tanár - magyartanár	M	44
+IK	programtervező informatikus	M	80
+BTK	történelem	M	65
+IK	programtervező informatikus	A	302
+PPK	tanár (T/D) - matematikatanár	M	46
+ÁJK	politikatudomány	M	39
+BTK	iranisztika	M	82
+BTK	művészettörténet	M	66
+PPK	pszichológia	M	68
+PPK	tanár (T/D) - magyar mint idegen nyelv tanára	M	60
+BTK	informatikus könyvtáros	A	425
+BTK	anglisztika	M	62
+PPK	andragógia	M	41
+ÁJK	kriminológia	M	31
+TTK	geofizikus	M	64
+BTK	spanyol nyelv, irodalom és kultúra	M	80
+TÁTK	kisebbségpolitika (magyar nyelven)	M	92
+BTK	esztétika	M	75
+BTK	iszlám tanulmányok	M	80
+TTK	geográfus	M	44
+TÁTK	szociálpolitika	M	92
+PPK	tanár (T/D) - fizikatanár	M	69
+BTK	fordító és tolmács	M	69
+PPK	interkulturális pszichológia és pedagógia	M	53
+BTK	keleti nyelvek és kultúrák-iranisztika szakirány	A	
+BTK	szlavisztika-szerb szakirány	A	409
+BTK	reneszánsz tanulmányok	M	74
+TÁTK	szociális munka	A	411
+BTK	germanisztika-német nemzetiségi szakirány	A	419
+BTK	keleti nyelvek és kultúrák-koreai szakirány	A	438
+TTK	földrajz	A	353
+PPK	tanár (T/D) - multikulturális nevelés tanára	M	50
+PPK	tanár - ének-zene tanár	M	68
+BTK	sinológia	M	87
+BTK	irodalom- és kultúratudomány	M	62

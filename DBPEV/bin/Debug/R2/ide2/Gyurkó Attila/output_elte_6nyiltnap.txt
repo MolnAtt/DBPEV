@@ -1,0 +1,21 @@
+23	fizika
+39	biológia
+41	biológus
+68	környezettudomány
+82	geográfus
+91	matematika
+96	tudománykommunikáció a természettudományban
+113	környezettan
+115	földrajz
+134	földtudományi
+154	meteorológus
+162	geológus
+171	matematikus
+173	geofizikus
+176	csillagász
+190	vegyész
+191	alkalmazott matematikus
+197	biofizikus
+199	anyagtudomány
+200	kémia
+206	biztosítási és pénzügyi matematika

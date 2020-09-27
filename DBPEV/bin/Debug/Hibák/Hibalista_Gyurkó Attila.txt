@@ -1,0 +1,4 @@
+Rekord- vagy sorrendhiba: Gyurkó Attila tanuló a ide2 teszt 3olasz feladatában a(z) 0.sor 0.oszlopában: olasz nyelv, irodalom és kultúra helyett tanár (T/D) - olasztanár szerepel.
+
+Mérethiba (Y>): Gyurkó Attila tanuló ide2 tesztjének 6nyiltnap válaszában több  (1 db) sor van a kelleténél.
+
