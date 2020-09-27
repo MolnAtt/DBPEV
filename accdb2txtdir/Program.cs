@@ -34,7 +34,7 @@ namespace accdb2txtdir
                 }
                 catch (Exception)
                 {
-                    Console.ForegroundColor = ConsoleColor.Magen;
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                 }
             }
             public static void WriteLine(string s)
@@ -166,6 +166,10 @@ namespace accdb2txtdir
                     szín = hiba.Contains("LIKE") ? "yellow" : "red";
                     Konzol.WriteLine(debug, $"[{szín}]{{{hiba}}}");
                 }
+                if (hibajegyzék.Any(x=> x.Contains("LIKE")))
+                {
+                    Színes.WriteLine("\t[yellow]{Ha vannak indokolatlanul üres táblák, akkor ennek egy valószínű oka az, hogy az OLEDB, amit ez a program használ, nem tudja értelmezni az Access-ben használatos \"LIKE\" parancs \"*\" és \"?\" regex-szerű változójeleit. Ehhez az eredeti fájlokban sajnos egyelőre át kell írni a parancsokat \"ALIKE\" parancsokra és a szokásos mysql és sql-szerver \"%\" és \"_\" karaktereket használni. Így az Access és az OLEDB is lefut és ugyanazt az eredményt produkálja. }");
+                }
             }
             public static void Setup(string debug)
             {
@@ -275,10 +279,9 @@ namespace accdb2txtdir
             //GetLekérdezés("3db");
 
             Tanuló.HibákKiírása(debug);
-            Console.WriteLine("A program lefutott, a tanulók könyvtáraiban (azaz a nem kötőjellel kezdődő könyvtárakban) megtalálhatók a megadott lekérdezések és táblák lekérdezései tsv formátumban .txt kiterjesztéssel.)");
-            Console.WriteLine("\tHa vannak indokolatlanul üres táblák, akkor ennek egy valószínű oka az, hogy az OLEDB, amit ez a program használ, nem tudja értelmezni az Access-ben használatos \"LIKE\" parancs \"*\" és \"?\" regex-es változójeleit. Ehhez az eredeti fájlokban sajnos egyelőre át kell írni a parancsokat \"ALIKE\" parancsokra és a szokásos mysql és sql-szerver \"%\" és \"_\" karaktereket használni. Így az Access és az OLEDB is lefut és ugyanazt az eredményt produkálja. ");
-            Console.WriteLine("\tAz összehasonlításhoz futtass egy ellenőrzőprogramot, pl az outputcomparer.exe-t");
-            Console.WriteLine("\tNyomj meg egy gombot a befejezéshez!");
+            Színes.WriteLine("[green]{A program lefutott}. \n\t[blue]{A tanulók könyvtáraiban} (azaz a nem kötőjellel kezdődő könyvtárakban) [blue]{megtalálhatók a megadott lekérdezések és táblák lekérdezései tsv formátumban .txt kiterjesztéssel.}");            
+            Színes.WriteLine("\tAz összehasonlításhoz futtass egy ellenőrzőprogramot, pl az [blue]{Összehasonlító.exe}-t");
+            Színes.WriteLine("\tNyomj meg egy gombot a befejezéshez!");
             Console.ReadKey();
         }
     }
