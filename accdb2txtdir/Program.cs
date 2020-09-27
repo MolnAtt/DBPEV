@@ -11,6 +11,72 @@ namespace accdb2txtdir
 {
 	class Program
 	{
+        static class Színes
+        {
+            private static Dictionary<string, ConsoleColor> színszotár = new Dictionary<string, ConsoleColor>();
+            public static void Init()
+            {
+                színszotár.Add("blue", ConsoleColor.Blue);
+                színszotár.Add("white", ConsoleColor.White);
+                színszotár.Add("red", ConsoleColor.Red);
+                színszotár.Add("green", ConsoleColor.Green);
+                színszotár.Add("yellow", ConsoleColor.Yellow);
+            }
+            private static string Intervallum(string s, int a, int b)
+            {
+                return s.Substring(a + 1, b - a - 3);
+            }
+            private static void Színtvált(string szín)
+            {
+                try
+                {
+                    Console.ForegroundColor = színszotár[szín];
+                }
+                catch (Exception)
+                {
+                    Console.ForegroundColor = ConsoleColor.Magen;
+                }
+            }
+            public static void WriteLine(string s)
+            {
+                Write(s);
+                Console.WriteLine();
+            }
+            public static void Write(string s)
+            {
+                int i = s.IndexOf('[');
+                int j = s.IndexOf(']');
+                int l = s.IndexOf('}');
+                if (i == -1 || j == -1 || l == -1)
+                {
+                    Console.Write(s);
+                }
+                else
+                {
+                    if (i > 0)
+                    {
+                        Console.Write(s.Substring(0, i));
+                    }
+                    Színtvált(s.Substring(i + 1, j - i - 1
+                        ));
+                    Console.Write(s.Substring(j + 2, l - j
+                        - 2
+                        ));
+                    Színtvált("white");
+                    if (l < s.Length - 1)
+                    {
+                        Színes.Write(s.Substring(l + 1));
+                    }
+                }
+            }
+            public static string Be(string megj = "")
+            {
+                if (megj != "") { Színes.WriteLine(megj); }
+                Színes.Write("[green]{>> }");
+                return Console.ReadLine();
+            }
+        }
+
         class Feladat
         {
             public class NNT
@@ -25,7 +91,7 @@ namespace accdb2txtdir
                     sorvektor = sor.Split('\t');
                     adatbázis = sorvektor[0];
                     adatbázisnév = adatbázis.Split('.')[0];
-                    lekérdezés = sorvektor[1];
+                    lekérdezés = sorvektor[1].Split('.')[0];
                     tipus = sorvektor[2];
                 }
             }
@@ -46,7 +112,7 @@ namespace accdb2txtdir
                         }
                     }
                 }
-                Konzol.WriteLine(debug, setupdirpath + @"\" + setupfilename + " beolvasva", ConsoleColor.White);
+                Konzol.WriteLine(debug, setupdirpath + @"\" + setupfilename + " beolvasva");
                 Console.WriteLine("{0}\\{1}\t -> \t{2}", "adatbázis neve", "lekérdezés neve", "lekérdezés típusa");
                 Console.WriteLine("---------------------------");
                 foreach (NNT nnt in setuplist)
@@ -64,19 +130,15 @@ namespace accdb2txtdir
         static class Konzol
         {
             public static string dbj = " > ";
-            public static ConsoleColor debugszín = ConsoleColor.Blue;
 
-            public static void Write(string debug, string k, ConsoleColor szín)
+            public static void Write(string debug, string k)
             {
-                Console.ForegroundColor = debugszín;
-                Console.Write(debug);
-                Console.ForegroundColor = szín;
-                Console.Write(k);
-                Console.ForegroundColor = ConsoleColor.White;
+                Színes.Write($"[blue]{{{debug}}}");
+                Színes.Write(k);
             }
-            public static void WriteLine(string debug, string k, ConsoleColor szín = ConsoleColor.White)
+            public static void WriteLine(string debug, string k)
             {
-                Write(debug, k+"\n", szín);
+                Write(debug, k+"\n");
             }
         }
         class Tanuló
@@ -98,9 +160,11 @@ namespace accdb2txtdir
             public static void HibákKiírása(string debug)
             {
                 debug += "Tanuló.hibajegyzék" + Konzol.dbj;
+                string szín;
                 foreach (string hiba in hibajegyzék)
                 {
-                    Konzol.WriteLine(debug, hiba, ConsoleColor.Red);
+                    szín = hiba.Contains("LIKE") ? "yellow" : "red";
+                    Konzol.WriteLine(debug, $"[{szín}]{{{hiba}}}");
                 }
             }
             public static void Setup(string debug)
@@ -112,13 +176,14 @@ namespace accdb2txtdir
                     {
                         lista.Add(new Tanuló(könyvtárnév));
                     }
-                    Konzol.Write(debug, Path2név(könyvtárnév), ConsoleColor.Green);
+                    Konzol.Write(debug, $"[green]{{{Path2név(könyvtárnév)}}}");
                     Konzol.WriteLine("", " tanulókönyvtár észlelve.");
                 }
             }
             private void lekérdezés2txt(string debug, Feladat.NNT nnt)
             {
                 debug += "lekérdezés2txt" + Konzol.dbj;
+                string szín;
                 try
                 {
                     con = new OleDbConnection();
@@ -132,8 +197,8 @@ namespace accdb2txtdir
                     int sorokszáma = reader.FieldCount;
                     Console.WriteLine("+-------------- START --------------");
                     Console.Write("|\t");
-                    Konzol.Write("", név + " ", ConsoleColor.Green);
-                    Konzol.Write("", nnt.lekérdezés, ConsoleColor.Blue);
+                    Konzol.Write("", $"[green]{{{név}}} ");
+                    Konzol.Write("", $"[blue]{{{nnt.lekérdezés}}}");
                     Console.WriteLine(" lekérdezése:");
                     Console.WriteLine("+-----------------------------------");
                     using (StreamWriter w = new StreamWriter(dirpath + "\\output_" + nnt.adatbázisnév + "_" + nnt.lekérdezés + ".txt"))
@@ -148,7 +213,7 @@ namespace accdb2txtdir
                                 sorstring += reader[j] + (j<sorokszáma-1?"\t":"");
                             }
                             Console.Write("| ");
-                            Konzol.Write("", (++i).ToString(), ConsoleColor.Blue);
+                            Konzol.Write("", $"[blue]{{{++i}}}");
                             Console.WriteLine("\t"+sorstring);
                             w.WriteLine(sorstring);
                         }
@@ -169,7 +234,9 @@ namespace accdb2txtdir
                 {
                     string hiba = "HIÁNYZIK? " + név + ": " + nnt.adatbázisnév + "/" + nnt.lekérdezés + " -- " + e.Message; //+" ("+debug+")";
                     hibajegyzék.Add(hiba);
-                    Konzol.WriteLine(debug, hiba, ConsoleColor.Red);
+                    szín = hiba.Contains("LIKE") ? "yellow" : "red";
+                    Konzol.WriteLine(debug, $"[{szín}]{{{hiba}}}");
+//                    Konzol.WriteLine(debug, $"[red]{{{hiba}}}");
                     using (StreamWriter w = new StreamWriter(dirpath + "\\output_" + nnt.adatbázisnév + "_" + nnt.lekérdezés + ".txt"))
                     {
                         w.WriteLine(hiba);
@@ -196,6 +263,7 @@ namespace accdb2txtdir
         }
         static void Main(string[] args)
         {
+            Színes.Init();
             string debug = " ";
             root = Directory.GetCurrentDirectory();
             Tanuló.Setup(debug);

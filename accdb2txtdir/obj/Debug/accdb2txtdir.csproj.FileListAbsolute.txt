@@ -4,3 +4,9 @@ C:\Users\MolnarAttila\source\repos\accdb2txtdir\bin\Debug\accdb2txtdir.pdb
 C:\Users\MolnarAttila\source\repos\accdb2txtdir\obj\Debug\accdb2txtdir.csprojAssemblyReference.cache
 C:\Users\MolnarAttila\source\repos\accdb2txtdir\obj\Debug\accdb2txtdir.exe
 C:\Users\MolnarAttila\source\repos\accdb2txtdir\obj\Debug\accdb2txtdir.pdb
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\bin\Debug\accdb2txtdir.exe.config
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\bin\Debug\accdb2txtdir.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\bin\Debug\accdb2txtdir.pdb
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\obj\Debug\accdb2txtdir.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\obj\Debug\accdb2txtdir.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\accdb2txtdir\obj\Debug\accdb2txtdir.pdb

@@ -1,8 +1,7 @@
-%%%%%%% Az adatb·zis neve, a lekÈrdezÈsek nevei Ès tÌpusai tabul·torral elv·lasztva: 
-posta.accdb	A	halmaz
-posta.accdb	B	halmaz
-posta.accdb	C	rendezett halmaz
-posta.accdb	D	rendezett halmaz
-posta.accdb	E	halmaz
-posta.accdb	statisztika	halmaz
-posta.accdb	G	halmaz
+%% program neve, feladatok neve √©s t√≠pusai tabul√°torral szedve
+% (a sz√°zal√©kjellel kezd≈ëd≈ë sorok inline kommentek.)
+elte.accdb	3olasz.txt	rendezett halmaz
+elte.accdb	4kezdes.txt	sz√°m-0
+elte.accdb	5tized.txt	sz√°m-0
+elte.accdb	6nyiltnap.txt	multihalmaz
+elte.accdb	7ponthatar.txt	rendezett halmaz

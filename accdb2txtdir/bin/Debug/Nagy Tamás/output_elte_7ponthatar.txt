@@ -1,0 +1,1 @@
+HIÁNYZIK? Nagy Tamás: elte/7ponthatar -- A Microsoft Access adatbázismotor nem találja a(z) 7ponthatar táblát vagy lekérdezést. Ellenőrizze, hogy létezik-e, illetve hogy helyesen adta-e meg a nevét.
