@@ -659,7 +659,7 @@ namespace DBPEV
 						}
 						hiba = $"[red]{{Rekordhiba (részhalmaz):}} " +
 							$"[green]{{{v.tulajdonos.név}}} tanuló " +
-								$"[blue]{{{v.teszt.név}}} tesztre adott" +
+								$"[blue]{{{v.teszt.név}}} tesztre adott " +
 								$"[blue]{{{v.lekérdezés}}} válasza " +
 								"és a megoldókulcs válasza közül egyik sem részhalmaza a másiknak.\n";
 						Színes.WriteLine(hiba);
