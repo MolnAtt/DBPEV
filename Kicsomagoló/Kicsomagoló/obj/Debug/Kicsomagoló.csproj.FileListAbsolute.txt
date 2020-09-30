@@ -1,0 +1,6 @@
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\bin\Debug\Kicsomagoló.exe.config
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\bin\Debug\Kicsomagoló.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\bin\Debug\Kicsomagoló.pdb
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\obj\Debug\Kicsomagoló.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\obj\Debug\Kicsomagoló.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\Kicsomagoló\Kicsomagoló\obj\Debug\Kicsomagoló.pdb
