@@ -1,0 +1,5 @@
+nemzet.accdb	2eloszor.txt	rendezett halmaz
+nemzet.accdb	3mas.txt	multihalmaz
+nemzet.accdb	5tobbszor.txt	multihalmaz
+nemzet.accdb	6tolig.txt	rendezett halmaz
+nemzet.accdb	72012.txt	multihalmaz

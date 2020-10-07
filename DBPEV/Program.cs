@@ -87,7 +87,6 @@ namespace DBPEV
 			}
 			return str.Replace("{", "").Replace("}", "");
 		}
-
 	}
 	public class Multihalmaz<T>
 	{

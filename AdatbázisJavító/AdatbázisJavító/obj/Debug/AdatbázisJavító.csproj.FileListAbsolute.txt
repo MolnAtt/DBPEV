@@ -1,0 +1,6 @@
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\obj\Debug\AdatbázisJavító.csprojAssemblyReference.cache
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\bin\Debug\AdatbázisJavító.exe.config
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\bin\Debug\AdatbázisJavító.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\bin\Debug\AdatbázisJavító.pdb
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\obj\Debug\AdatbázisJavító.exe
+C:\Users\MolnarAttila\Desktop\_DBPEV\AdatbázisJavító\AdatbázisJavító\obj\Debug\AdatbázisJavító.pdb

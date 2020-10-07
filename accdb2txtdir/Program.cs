@@ -9,74 +9,74 @@ using System.IO;
 
 namespace accdb2txtdir
 {
-	class Program
-	{
-        static class Színes
+    static class Színes
+    {
+        private static Dictionary<string, ConsoleColor> színszotár = new Dictionary<string, ConsoleColor>();
+        public static void Init()
         {
-            private static Dictionary<string, ConsoleColor> színszotár = new Dictionary<string, ConsoleColor>();
-            public static void Init()
-            {
-                színszotár.Add("blue", ConsoleColor.Blue);
-                színszotár.Add("white", ConsoleColor.White);
-                színszotár.Add("red", ConsoleColor.Red);
-                színszotár.Add("green", ConsoleColor.Green);
-                színszotár.Add("yellow", ConsoleColor.Yellow);
-            }
-            private static string Intervallum(string s, int a, int b)
-            {
-                return s.Substring(a + 1, b - a - 3);
-            }
-            private static void Színtvált(string szín)
+            színszotár.Add("blue", ConsoleColor.Blue);
+            színszotár.Add("white", ConsoleColor.White);
+            színszotár.Add("red", ConsoleColor.Red);
+            színszotár.Add("green", ConsoleColor.Green);
+            színszotár.Add("yellow", ConsoleColor.Yellow);
+        }
+        private static string Intervallum(string s, int a, int b)
+        {
+            return s.Substring(a + 1, b - a - 3);
+        }
+        private static void Színtvált(string szín)
+        {
+            Console.ForegroundColor = színszotár[szín];
+            try
             {
                 Console.ForegroundColor = színszotár[szín];
-                try
-                {
-                    Console.ForegroundColor = színszotár[szín];
-                }
-                catch (Exception)
-                {
-                    Console.ForegroundColor = ConsoleColor.Magenta;
-                }
             }
-            public static void WriteLine(string s)
+            catch (Exception)
             {
-                Write(s);
-                Console.WriteLine();
-            }
-            public static void Write(string s)
-            {
-                int i = s.IndexOf('[');
-                int j = s.IndexOf(']');
-                int l = s.IndexOf('}');
-                if (i == -1 || j == -1 || l == -1)
-                {
-                    Console.Write(s);
-                }
-                else
-                {
-                    if (i > 0)
-                    {
-                        Console.Write(s.Substring(0, i));
-                    }
-                    Színtvált(s.Substring(i + 1, j - i - 1
-                        ));
-                    Console.Write(s.Substring(j + 2, l - j
-                        - 2
-                        ));
-                    Színtvált("white");
-                    if (l < s.Length - 1)
-                    {
-                        Színes.Write(s.Substring(l + 1));
-                    }
-                }
-            }
-            public static string Be(string megj = "")
-            {
-                if (megj != "") { Színes.WriteLine(megj); }
-                Színes.Write("[green]{>> }");
-                return Console.ReadLine();
+                Console.ForegroundColor = ConsoleColor.Magenta;
             }
         }
+        public static void WriteLine(string s)
+        {
+            Write(s);
+            Console.WriteLine();
+        }
+        public static void Write(string s)
+        {
+            int i = s.IndexOf('[');
+            int j = s.IndexOf(']');
+            int l = s.IndexOf('}');
+            if (i == -1 || j == -1 || l == -1)
+            {
+                Console.Write(s);
+            }
+            else
+            {
+                if (i > 0)
+                {
+                    Console.Write(s.Substring(0, i));
+                }
+                Színtvált(s.Substring(i + 1, j - i - 1
+                    ));
+                Console.Write(s.Substring(j + 2, l - j
+                    - 2
+                    ));
+                Színtvált("white");
+                if (l < s.Length - 1)
+                {
+                    Színes.Write(s.Substring(l + 1));
+                }
+            }
+        }
+        public static string Be(string megj = "")
+        {
+            if (megj != "") { Színes.WriteLine(megj); }
+            Színes.Write("[green]{>> }");
+            return Console.ReadLine();
+        }
+    }
+    class Program
+	{
 
         class Feladat
         {

@@ -74,6 +74,23 @@ namespace AdatbázisJavító
 					}
 				}
 			}
+			public static bool AkasztóKey(char betű, string megj) { return betű != Színes.BeKey(megj); }
+			public static void AkasztóLoop(string megj, string kulcs)
+			{
+				string válasz;
+				do
+				{
+					válasz = Színes.Be($"{megj} \"{kulcs}\"");
+				} while (válasz != kulcs);
+			}
+			public static char BeKey(string megj = "")
+			{
+				if (megj != "") { Színes.WriteLine(megj); }
+				Színes.Write("[green]{>> }");
+				char result = Console.ReadKey().KeyChar;
+				Console.WriteLine();
+				return result;
+			}
 			public static string Be(string megj = "")
 			{
 				if (megj != "") { Színes.WriteLine(megj); }
@@ -315,35 +332,33 @@ namespace AdatbázisJavító
 		}
 		static class Kicsomagoló
 		{
-			public static string Main(string[] args)
+			public static string Fuss(string[] args)
 			{
-				Console.WriteLine("nyomj egy \"mehet\"-et, és kitömörít minden könyvtárat:");
-				Console.Write("--> ");
-				if (Console.ReadLine() == "mehet")
+				string könyvtárnév;
+				if (args.Length == 0 || args[0] == "")
+					könyvtárnév = Színes.Be("Mondj egy új könyvtárnevet, hogy hova pakoljam a kicsomagolt fájlokat:");
+				else
+					könyvtárnév = args[0];
+				string ezakönyvtár = Directory.GetCurrentDirectory();
+				string ittlesz = $"{ezakönyvtár}\\{könyvtárnév}";
+				Directory.CreateDirectory(ittlesz);
+				string ide;
+				foreach (string zipfile in Directory.EnumerateFiles(ezakönyvtár).Where(x => new Regex(@".*\.zip").IsMatch(x)))
 				{
-					Console.WriteLine("Mondj egy új könyvtárnevet, hogy hova pakoljam a kicsomagolt fájlokat:");
-					Console.Write("--> ");
-					string könyvtárnév = Console.ReadLine();
-					string ezakönyvtár = Directory.GetCurrentDirectory();
-					string ittlesz = $"{ezakönyvtár}\\{könyvtárnév}";
-					Directory.CreateDirectory(ittlesz);
-					string ide;
-					foreach (string zipfile in Directory.EnumerateFiles(ezakönyvtár).Where(x => new Regex(@".*\.zip").IsMatch(x)))
-					{
-
-						ide = $"{ittlesz}\\{zipfile.Split('\\').Last().Split('.').First()}";
-						Directory.CreateDirectory(ide);
-						ZipFile.ExtractToDirectory(zipfile, ide);
-					}
-					return ittlesz;
+					ide = $"{ittlesz}\\{zipfile.Split('\\').Last().Split('.').First()}";
+					Directory.CreateDirectory(ide);
+					ZipFile.ExtractToDirectory(zipfile, ide);
+					Színes.WriteLine($"[green]{{{Fájlkezelés.Path2Név(zipfile)}}} kicsomagolva.");
 				}
-				return "nem mehetett";
+				return ittlesz;
 			}
 		}
 		static class Kiszedegető
 		{
-			static void Main(string[] args)
+			public static void Fuss(string[] args)
 			{
+				#region így kommunikálna külön
+				/*
 				Színes.WriteLine("A program működése:");
 				Színes.WriteLine("Legyen [blue]{D} azon könyvtár neve, amiben ezt a programot futtatod.");
 				Színes.WriteLine("Legyenek továbbá [blue]{D_1}, [blue]{D_2}, ... [blue]{D_i}, ... a [blue]{D} könyvtárban található közvetlen könyvtárak nevei. (Tehát csak a gyerekek.)");
@@ -373,14 +388,26 @@ namespace AdatbázisJavító
 				do { O = Console.ReadLine(); } while (!options.Contains(O) && !(O.StartsWith("sok2") && int.TryParse(O.Substring(4), out cardinality)));
 
 				Színes.WriteLine("[yellow]{---------------------------------------}");
+				*/
+				#endregion
 
-				string ezakönyvtár = Directory.GetCurrentDirectory();
-				IEnumerable<string> könyvtárakitt = Directory.EnumerateDirectories(ezakönyvtár);
-				string eredménykönyvtár = ezakönyvtár + "\\" + C;
+				string R = @".*\.accdb";
+				Színes.WriteLine($"[blue]{{R}} = {R}");
+				string F = "";
+				Színes.WriteLine("[blue]{F} = ");
+				string C = args[0];
+				Színes.WriteLine($"[blue]{{C}} = {C}");
+				string O = "2";
+				Színes.WriteLine($"[blue]{{O}} = {O}");
+
+				string ezakönyvtár = args[1];
+				Directory.CreateDirectory(ezakönyvtár);
+				IEnumerable<string> könyvtárak_a_megadott_helyen = Directory.EnumerateDirectories(ezakönyvtár);
+				string eredménykönyvtár = $"{ezakönyvtár}\\{C}";
 				Directory.CreateDirectory(eredménykönyvtár);
 				List<string> másolandófájlok = new List<string>();
 				string találtfájl = "";
-				foreach (string D_i in könyvtárakitt)
+				foreach (string D_i in könyvtárak_a_megadott_helyen)
 				{
 					if (D_i != eredménykönyvtár)
 					{
@@ -395,7 +422,7 @@ namespace AdatbázisJavító
 							{
 								Directory.CreateDirectory(eredménykönyvtár + "\\" + Fájlkezelés.Path2Név(D_i));
 								File.Copy(találtfájl, eredménykönyvtár + "\\" + Fájlkezelés.Path2Név(D_i) + "\\" + Fájlkezelés.Path2Név(találtfájl));
-								Színes.WriteLine("A [green]{" + D_i + "} könyvtárban a(z) [blue]{" + (R == "" ? F : R) + "} fájlt megtaláltam, bemásoltam a [blue]{" + C + "} könyvtárban létrehozott [blue]{" + Fájlkezelés.Path2Név(D_i) + "} könyvtárba.");
+								Színes.WriteLine($"[green]{{{D_i}}} könyvtárban [blue]{{{(R == "" ? F : R)}}} megvan, bemásolva ide: [blue]{{{C}\\}}[green]{{{Fájlkezelés.Path2Név(D_i)}}}");
 							}
 							else if (O.StartsWith("sok2"))
 							{
@@ -417,9 +444,62 @@ namespace AdatbázisJavító
 						}
 					}
 				}
-				Színes.WriteLine("[yellow]{A program befejeződött. Nyomd meg a q-t a kilépéshez.}");
-
-				while (Console.ReadKey().KeyChar != 'q') { }
+			}
+		}
+		static class SetupTXT
+		{
+			class QueryType
+			{
+				const string undefined = "NOOOOOOOOOOOOO";
+				public string adatbázisnév;
+				public string query;
+				public char type;
+				public static List<QueryType> lista = new List<QueryType>();
+				public QueryType(string a, string q, char t)
+				{
+					adatbázisnév = a != "" ? a : (lista.Count != 0 ? lista.Last().adatbázisnév : Színes.Be("Ne enterrel kezdj! Add meg az adatbázis nevét!"));
+					query = q;
+					type = t;
+					lista.Add(this);
+				}
+				public static Dictionary<char, string> típusszótár = new Dictionary<char, string>();
+				public static void RövidítésSetup()
+				{
+					típusszótár.Add('m', "multihalmaz");
+					típusszótár.Add('r', "rendezett halmaz");
+					típusszótár.Add('h', "halmaz");
+					típusszótár.Add('l', "logikai");
+					for (int i = 0; i < 10; i++)
+					{
+						típusszótár.Add(i.ToString()[0], $"szám-{i}");
+					}
+				}
+			}
+			public static string Get(string[] args)
+			{
+				string root = args[0];
+				if (!Directory.EnumerateFiles(root).Any(x => Fájlkezelés.Path2Név(x) == "setup.txt"))
+				{
+					Színes.WriteLine("Nem találtam meg a setup.txt-t, szóval csinálni kell egyet. \n-Ha majd elkészülsz, nyomj q-t. \n-Ha ugyanaz az adatbázisnév, mint az előbbi, akkor csak simán nyomj entert!");
+					QueryType.RövidítésSetup();
+					do
+					{
+						Console.WriteLine();
+						new QueryType(Színes.Be("----------------------------\nMi az [red]{adatbázis} neve?"), Színes.Be("Mi a [red]{lekérdezés} neve?"), Színes.BeKey(@"Mi a válasz [red]{típusa}? ([blue]{m}ultihalmaz / [blue]{r}endezett halmaz / [blue]{h}almaz / szám-[blue]{n} / [blue]{l}ogikai)"));
+					}
+					while (Színes.AkasztóKey('q', "\nHa nincs több válasz, nyomj [red]{q}-t!"));
+					//string adatbázisnév = args[1];
+					using (StreamWriter setupiro = new StreamWriter("setup.txt"))
+					{
+						foreach (QueryType item in QueryType.lista)
+						{
+							setupiro.WriteLine(item.adatbázisnév + ".accdb\t" + item.query + ".txt\t" + QueryType.típusszótár[item.type]);
+						}
+					}
+					Process.Start("notepad", "setup.txt");
+					Színes.AkasztóKey('q', "Most kiírta a fájlba, nézd meg, ha valami nem tetszik, még módosíthatod. Ha végeztél, nyomj egy [red]{q}-t");
+				}
+				return $"{root}\\setup.txt";
 			}
 		}
 		static class accdb2txt
@@ -470,10 +550,7 @@ namespace AdatbázisJavító
 			}
 
 			static string root;
-			static string Path2név(string path)
-			{
-				return path.Split('\\').Last();
-			}
+			static string preroot;
 			static class Konzol
 			{
 				public static string dbj = " > ";
@@ -499,27 +576,24 @@ namespace AdatbázisJavító
 				public Tanuló(string dp)
 				{
 					dirpath = dp;
-					név = Path2név(dp);
+					név = Fájlkezelés.Path2Név(dp);
 					megoldókulcs = név[0] == '!';
 				}
 				static List<Tanuló> lista = new List<Tanuló>();
-				static List<string> hibajegyzék = new List<string>();
+				public static List<string> hibajegyzék;
 				public static void HibákKiírása(string debug)
 				{
 					debug += "Tanuló.hibajegyzék" + Konzol.dbj;
+					//Program.Likeproblémák = Tanuló.hibajegyzék
 					string szín;
 					foreach (string hiba in hibajegyzék)
-					{
-						szín = hiba.Contains("LIKE") ? "yellow" : "red";
-						Konzol.WriteLine(debug, $"[{szín}]{{{hiba}}}");
-					}
+						Színes.WriteLine(hiba);
 					if (hibajegyzék.Any(x => x.Contains("LIKE")))
-					{
 						Színes.WriteLine("\t[yellow]{Ha vannak indokolatlanul üres táblák, akkor ennek egy valószínű oka az, hogy az OLEDB, amit ez a program használ, nem tudja értelmezni az Access-ben használatos \"LIKE\" parancs \"*\" és \"?\" regex-szerű változójeleit. Ehhez az eredeti fájlokban sajnos egyelőre át kell írni a parancsokat \"ALIKE\" parancsokra és a szokásos mysql és sql-szerver \"%\" és \"_\" karaktereket használni. Így az Access és az OLEDB is lefut és ugyanazt az eredményt produkálja. }");
-					}
 				}
 				public static void Setup(string debug)
 				{
+					hibajegyzék = new List<string>();
 					debug += "Tanuló.Setup" + Konzol.dbj;
 					foreach (string könyvtárnév in Directory.EnumerateDirectories(root))
 					{
@@ -527,7 +601,7 @@ namespace AdatbázisJavító
 						{
 							lista.Add(new Tanuló(könyvtárnév));
 						}
-						Konzol.Write(debug, $"[green]{{{Path2név(könyvtárnév)}}}");
+						Konzol.Write(debug, $"[green]{{{Fájlkezelés.Path2Név(könyvtárnév)}}}");
 						Konzol.WriteLine("", " tanulókönyvtár észlelve.");
 					}
 				}
@@ -548,9 +622,7 @@ namespace AdatbázisJavító
 						int sorokszáma = reader.FieldCount;
 						Console.WriteLine("+-------------- START --------------");
 						Console.Write("|\t");
-						Konzol.Write("", $"[green]{{{név}}} ");
-						Konzol.Write("", $"[blue]{{{nnt.lekérdezés}}}");
-						Console.WriteLine(" lekérdezése:");
+						Színes.WriteLine($"[green]{{{név}}} [blue]{{{nnt.lekérdezés}}} lekérdezése:");
 						Console.WriteLine("+-----------------------------------");
 						using (StreamWriter w = new StreamWriter($"{dirpath}\\output_{nnt.adatbázisnév}_{nnt.lekérdezés}.txt"))
 						{
@@ -570,7 +642,9 @@ namespace AdatbázisJavító
 							}
 							if (i == 0)
 							{
-								hibajegyzék.Add("Üres? Ha nem, fix: LIKE => ALIKE ? " + név + ": " + nnt.adatbázisnév + "/" + nnt.lekérdezés);
+								string likehibaszöveg = $"[red]{{Üres}}? [yellow]{{Ha nem, fix: LIKE -> ALIKE}} -> {név}: {nnt.adatbázisnév}/{nnt.lekérdezés}";
+								hibajegyzék.Add(likehibaszöveg);
+								new LikeHiba(név, nnt.adatbázisnév, nnt.lekérdezés, likehibaszöveg);
 							}
 						}
 						con.Close();
@@ -583,11 +657,10 @@ namespace AdatbázisJavító
 					}
 					catch (Exception e)
 					{
-						string hiba = "HIÁNYZIK? " + név + ": " + nnt.adatbázisnév + "/" + nnt.lekérdezés + " -- " + e.Message; //+" ("+debug+")";
+						string hiba = $"[red]{{HIÁNYZIK?}} [green]{{{név}}}: {nnt.adatbázisnév}/[blue]{{{nnt.lekérdezés}}} --{e.Message}"; //+" ("+debug+")";
 						hibajegyzék.Add(hiba);
 						szín = hiba.Contains("LIKE") ? "yellow" : "red";
-						Konzol.WriteLine(debug, $"[{szín}]{{{hiba}}}");
-						//                    Konzol.WriteLine(debug, $"[red]{{{hiba}}}");
+						Színes.WriteLine(hiba);
 						using (StreamWriter w = new StreamWriter(dirpath + "\\output_" + nnt.adatbázisnév + "_" + nnt.lekérdezés + ".txt"))
 						{
 							w.WriteLine(hiba);
@@ -612,11 +685,10 @@ namespace AdatbázisJavító
 					}
 				}
 			}
-			static void Main(string[] args)
+			public static List<string> Fuss(string[] args)
 			{
-				Színes.Init();
 				string debug = " ";
-				root = Directory.GetCurrentDirectory();
+				root = args[0];
 				Tanuló.Setup(debug);
 				Feladat.Setup(debug);
 
@@ -626,15 +698,18 @@ namespace AdatbázisJavító
 				//GetLekérdezés("3db");
 
 				Tanuló.HibákKiírása(debug);
-				Színes.WriteLine("[green]{A program lefutott}. \n\t[blue]{A tanulók könyvtáraiban} (azaz a nem kötőjellel kezdődő könyvtárakban) [blue]{megtalálhatók a megadott lekérdezések és táblák lekérdezései tsv formátumban .txt kiterjesztéssel.}");
-				Színes.WriteLine("\tAz összehasonlításhoz futtass egy ellenőrzőprogramot, pl az [blue]{Összehasonlító.exe}-t");
-				Színes.WriteLine("\tNyomj meg egy gombot a befejezéshez!");
-				Console.ReadKey();
+				Színes.WriteLine("[green]{Az accdb2txt program lefutott}. \n\t[blue]{A tanulók könyvtáraiban} (azaz a nem kötőjellel kezdődő könyvtárakban) [blue]{megtalálhatók a megadott lekérdezések és táblák lekérdezései tsv formátumban .txt kiterjesztéssel.}");
+				//				Színes.WriteLine("\tAz összehasonlításhoz futtass egy ellenőrzőprogramot, pl az [blue]{Összehasonlító.exe}-t");
+				return Tanuló.hibajegyzék
+					.Where(x => new Regex(@".*[Ll][Ii][Kk][Ee].*")
+					.IsMatch(x))
+					.ToList();
 			}
 		}
 		static class Összehasonlító
 		{
-			static bool debugmode = false;
+			static string[] összehasonlításhoz_argumentumok;
+			static bool debugmode = true;
 			static string nemválaszolt = "NEM VÁLASZOLT";
 			/*	Ez az OutputComparer alapján készült, ahhoz ezek voltak a kapcsolódó programok: 
 			 *	- (Random) Input Generátor
@@ -644,10 +719,10 @@ namespace AdatbázisJavító
 			 *	Aztán ebből a Kiszedegető és InputokSzétosztásaÉsAFuttatás programok egybegyúrásával készül a mostani.
 			*/
 
-
 			class Teszt
 			{
 				public static string root;
+				public static string preroot;
 				public static Dictionary<string, Teszt> szótár = new Dictionary<string, Teszt>();
 				public string path;
 				public string név;
@@ -790,7 +865,7 @@ namespace AdatbázisJavító
 						result += "\r\n";
 					}
 
-					string eredménykönyvtárnév = "Results";
+					string eredménykönyvtárnév = "-Eredmények";
 					string hibakönyvtár = $"{Directory.GetCurrentDirectory()}\\{eredménykönyvtárnév}";
 					Directory.CreateDirectory(hibakönyvtár);
 
@@ -800,7 +875,7 @@ namespace AdatbázisJavító
 					{
 						output.WriteLine(result);
 					}
-					Színes.WriteLine($"A kapott pontok kiírva a [blue]{{{eredménykönyvtárnév}}} könyvtár tabulátorokkal tagolt [blue]{{table.txt}} állományba.");
+					Színes.WriteLine($"A kapott pontok kiírva a [blue]{{{Fájlkezelés.Path2Név(eredménykönyvtárnév)}}} könyvtár tabulátorokkal tagolt [blue]{{table.txt}} állományba.");
 					//				Clipboard.SetText(result);
 					//			Console.WriteLine("Táblázat kimásolva a vágólapra.");
 
@@ -820,7 +895,7 @@ namespace AdatbázisJavító
 									tanulóhibakiíró.WriteLine(Színes.Fehérítő(hiba));
 								}
 							}
-							Színes.WriteLine($"[green]{{{tanuló.név}}} hibái kiírva a [blue]{{{eredménykönyvtárnév}\\{hibafájlnév}}} fáljba [blue]{{({tanuló.hibalista.Count} db)}}.");
+							Színes.WriteLine($"[green]{{{tanuló.név}}} hibái kiírva a [blue]{{{Fájlkezelés.Path2Név(eredménykönyvtárnév)}\\{hibafájlnév}}} fáljba [blue]{{({tanuló.hibalista.Count} db)}}.");
 						}
 					}
 
@@ -995,7 +1070,7 @@ namespace AdatbázisJavító
 
 						if (v.Size[1] > m.Size[1]) // precautions
 						{
-							hiba = $"[red]{{Mérethiba (Y>):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában több  ([blue]{{{(v.Size[1] - m.Size[1]).ToString()}}} db) sor van a kelleténél.\n";
+							hiba = $"[red]{{Mérethiba (Y>):}} [green]{{{v.tulajdonos.név}}} tanuló [blue]{{{v.teszt.név}}} tesztjének [blue]{{{v.lekérdezés}}} válaszában több  ([blue]{{{(v.Size[1] - m.Size[1]).ToString()}}} db) oszlop van a kelleténél.\n";
 							Színes.WriteLine(hiba);
 							v.tulajdonos.hibalista.Add(hiba);
 							return false;
@@ -1172,12 +1247,13 @@ namespace AdatbázisJavító
 				{
 					debug += "Tanuló.Setup" + dbj;
 
-					Színes.WriteLine("Add meg, hogy mely könyvtárba lettek kiválogatva a dolgozatok! (A readme-ben az [green]{ide} könyvtár.)");
-					Teszt.root = Színes.Be();
+					Teszt.root = Directory.GetCurrentDirectory() + "\\" + összehasonlításhoz_argumentumok[0];
+					Teszt.preroot = Directory.GetCurrentDirectory() + "\\" + összehasonlításhoz_argumentumok[1];
 
 					#region Teszt-objektumok létrehozása
 					Színes.WriteLine(debug + dbj + "[blue]{Teszt-objektumok létrehozása}");
-					foreach (string path in Directory.EnumerateDirectories(Directory.GetCurrentDirectory() + "\\" + Teszt.root).Where(x => !Path2name(x).StartsWith("-")))
+					// azért ilyen ostoba a következő linq, hogy hasonlítson a programtesztelősre, és vissza lehessen írni, amikor általánosítjuk.
+					foreach (string path in Directory.EnumerateDirectories(Teszt.preroot).Where(x => x==Teszt.root && !Path2name(x).StartsWith("-")))
 					{
 						new Teszt(path);
 					}
@@ -1313,24 +1389,9 @@ namespace AdatbázisJavító
 				}
 			}
 			[STAThreadAttribute]
-			static void Main(string[] args)
+			public static void Fuss(string[] args)
 			{
-				Színes.Init();
-				Színes.WriteLine("[red]{Adatbázisokat} szeretnél összevetni vagy [blue]{Programokat} tesztelni?");
-				Színes.WriteLine("[red]{a}: Adatbázisok");
-				Színes.WriteLine("[blue]{más}: Programtesztelés");
-
-				if (Console.ReadKey().Key == ConsoleKey.A)
-				{
-					ReadmeAB();
-				}
-				else
-				{
-					ReadmeP();
-				}
-
-				debugmode = Színes.Be("\nNyomj egy entert, ha készen állsz! (debug-módhoz írd be azt is, hogy [blue]{debug}!)") == "debug";
-
+				összehasonlításhoz_argumentumok = args;
 
 				string debug = "";
 				Tanuló.Setup(debug);
@@ -1341,11 +1402,37 @@ namespace AdatbázisJavító
 					teszt.Eredmények_Kiírása(debug);
 				}
 				Teszt.Eredmények_Összesítésének_Kiírása(debug);
-
-				Színes.Be("A program futása véget ért, nyomj egy entert az ablak bezárásához!");
 			}
 		}
 
+		class LikeHiba
+		{
+			public string név;
+			public string adatbázis;
+			public string lekérdezés;
+			public string tulajpath;
+			public string adatbázispath;
+			public string szöveg;
+			public static List<LikeHiba> lista = new List<LikeHiba>();
+			public static string root;
+			public LikeHiba(string n, string a, string l, string sz)
+			{
+				this.név = n;
+				this.adatbázis = a;
+				this.lekérdezés = l;
+				this.tulajpath = $"{root}\\{név}";
+				this.adatbázispath = $"{tulajpath}\\{adatbázis}.accdb";
+				this.szöveg = sz;
+				lista.Add(this);
+			}
+			public static void Init(string path)
+			{
+				root = path;
+			}
+
+		}
+
+		[STAThreadAttribute]
 		static void Main(string[] args)
 		{
 			#region hogy működik
@@ -1372,16 +1459,82 @@ namespace AdatbázisJavító
 			 */
 			#endregion
 
+			Színes.Init();
+			string ide_van_kicsomagolva;
+			string kiszedegetés_könyvtárneve;
+			string ide_van_kiszedegetve;
 			string root = Directory.GetCurrentDirectory();
-			if (!Directory.EnumerateFiles(root).Any(x => new Regex(@".*\![^\\]*\.zip").IsMatch(x)))
+			char milegyen = Színes.BeKey("Mennyire kell sokat dolgozni? Üsd be a betűjelet\n[red]{(a)}\t[red]{zip}-fájlok vannak csak\n[red]{(b)} Futtatgatni kell az [red]{accdb2txt} adatbáziskonvertert és aztán az összehasonlítást.\n[red]{(c)}\tVan minden, csak új [red]{összehasonlítás} kell.}");
+			if ("ab".Contains(milegyen))
 			{
-				Console.WriteLine("Nincs megoldókulcs! Csinálj egy !-vel kezdődő zip-fájlt, amiben szerepel a megoldás!");
-				return;
+				if ("a".Contains(milegyen))
+				{
+					if (!Directory.EnumerateFiles(root).Any(x => new Regex(@".*\![^\\]*\.zip").IsMatch(x)))
+					{
+						Console.WriteLine("Nincs megoldókulcs! Csinálj egy !-vel kezdődő zip-fájlt, amiben szerepel a megoldás!");
+						return;
+					}
+					#region Kicsomagolás
+					ide_van_kicsomagolva = Színes.Be("Add meg a könyvtár nevét, ahova dolgozzon a program!");
+					Kicsomagoló.Fuss(new string[] { ide_van_kicsomagolva });
+					Console.WriteLine($"fájlok kicsomagolva a(z) {Fájlkezelés.Path2Név(ide_van_kicsomagolva)} könyvtárba");
+					#endregion
+					#region Kiszedegetés
+					kiszedegetés_könyvtárneve = Színes.Be("Hogy nevezzem el a kiválogatott elemeket tartalmazó mappa nevét?");
+					ide_van_kiszedegetve = $"{ide_van_kicsomagolva}\\{kiszedegetés_könyvtárneve}";
+					Kiszedegető.Fuss(new string[] { kiszedegetés_könyvtárneve, ide_van_kicsomagolva });
+					#endregion
+					#region setup.txt
+					string setuptxt = SetupTXT.Get(new string[] { root });
+					#endregion
+				}
+				else
+				{
+					ide_van_kiszedegetve = Színes.Be("Mi a kicsomagolásos könyvtár?");
+					ide_van_kicsomagolva = Színes.Be("Mi a kiszedegetett könyvtár?");
+				}
+				#region accdb2text
+				LikeHiba.Init(ide_van_kiszedegetve);
+				char válasz;
+				do
+				{
+					accdb2txt.Fuss(new string[] { ide_van_kiszedegetve });
+					if (LikeHiba.lista.Count!=0)
+					{
+						Színes.WriteLine("Most a következő LIKE-kal kapcsolatos hibák adódtak:");
+						foreach (string item in LikeHiba.lista.Select(x=>x.szöveg))
+						{
+							Színes.WriteLine(item);
+						}
+					}
+					válasz = Színes.BeKey("Elkészült a legújabb accdb -> txt konverzió. Szeretnél még babrálni vele?\n[green]{(i)} Babrálok egy kicsit még, aztán futtasd le mégegyszer! \n[green]{(a)} Nyisd meg nekem az összes 0 rekordos (LIKE-ALIKE-hibagyanús) lekérdezést tartlmazó adatbázist, hogy átírhassam az esetleges LIKE-okat ALIKE-ra, csillagokat százalékra, kérdőjeleket alulvonásra!\n[red]{(n)} Nem köszi, ez így jó lesz, mehetünk tovább a megoldókulccsal való összehasonlításra!");
+					if ("a".Contains(válasz))
+					{
+						Színes.AkasztóLoop("Ha készen állsz, megnyílik minden problémás adatbázis. Ha készen vagy, írd azt, hogy ", "nyisd meg őket");
+						Console.WriteLine("Ezt írom a batch fileba:");
+						string batba;
+						foreach (LikeHiba hiba in LikeHiba.lista)
+						{
+							batba = $"{root}\\{hiba.adatbázispath}";
+							Console.WriteLine(batba);
+							Process.Start("msaccess", $"\"{batba}\"");
+						}
+						
+						Színes.AkasztóLoop("Ha már szerinted mehet tovább a program, írd azt, hogy ", "mehet");
+						LikeHiba.lista = new List<LikeHiba>();
+					}
+				} while ("ia".Contains(válasz));
+				#endregion
 			}
-
-			string ide_van_kicsomagolva = Kicsomagoló.Main(new string[0]);
-
-
+			else
+			{
+				ide_van_kiszedegetve = Színes.Be("Mi a kicsomagolásos könyvtár?");
+				ide_van_kicsomagolva = Színes.Be("Mi a kiszedegetett könyvtár?");
+			}
+			#region Összehasonlítás
+			Összehasonlító.Fuss(new string[] { ide_van_kiszedegetve, ide_van_kicsomagolva });
+			#endregion
+			while (Színes.AkasztóKey('q', "A program futása befejeződött, nyomj egy q-t!")) { }
 		}
 	}
 }
